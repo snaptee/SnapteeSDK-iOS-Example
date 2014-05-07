@@ -1,0 +1,18 @@
+# xcode noise
+build/*
+*.pbxuser
+*.mode1v3
+*.xcuserstate
+*.xcuserdatad/
+xcshareddata/
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+profile
+
+.gitattributes
+
+*.pbxproj -crlf -diff -merge
