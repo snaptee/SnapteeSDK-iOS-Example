@@ -18,6 +18,7 @@ https://github.com/stripe/stripe-ios
 4) In your app, add the following code to present Snaptee
 
 // Import Snaptee View Controller
+
     #import "STViewController.h"
     
 // Initialize Snaptee View Controller
@@ -27,15 +28,10 @@ https://github.com/stripe/stripe-ios
     image: UIImage passing to Snaptee
     caption: Optional. Description of the image. Typically entered by users
     */
+
     STViewController * stViewController = [[STViewController alloc] initWithAffiliateID:@"fuzel-testing"
-
                                                                                app_name:@"Fuzel"
-
                                                                                   image:[UIImage imageNamed:@"sample.png"]
-
                                                                                 caption:@"Testing Caption!"];
-
-    
-
     [self presentViewController:stViewController animated:YES completion:nil];
 
