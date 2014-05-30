@@ -54,12 +54,15 @@ STViewController * stViewController = [[STViewController alloc] initWithAffiliat
 ```
 
 To test:
+
 - check out with coupon code when using development ID
 - coupon code: st_sandbox
  
 Dashboard:
+
 The following website is the dashboard of the program. You may find statistics inside there.
 (Username and password are assigned by Snaptee)
+
 http://snaptee.co/affiliate
 
 
