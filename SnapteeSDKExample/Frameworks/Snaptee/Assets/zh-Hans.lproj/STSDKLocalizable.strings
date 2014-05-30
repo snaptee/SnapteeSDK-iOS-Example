@@ -1,0 +1,163 @@
+/* Order page - place holder for coupon code */
+"Add coupon code" = "添加优惠码";
+
+/* Shipping information - Receiver's address */
+"Address" = "地址";
+
+/* Shipping information - Placeholder for address */
+"Address line 1" = "地址行1";
+
+/* Shipping information - Placeholder for address line 2 */
+"Address line 2 (Optional)" = "地址行2（可选）";
+
+/* Apply button for coupon code */
+"Apply" = "应用";
+
+/* Alert - Are you sure? */
+"Are you sure?" = "您确定吗？";
+
+/* Back to the original app */
+"Back to %@" = "返回至%@";
+
+/* Back to design */
+"Back to design" = "返回至设计";
+
+/* Back to order page */
+"Back to order page" = "返回至订购页面";
+
+/* Cancel button
+   Cancel button for coupon code */
+"Cancel" = "取消";
+
+/* Order page - Please select the following checkout method */
+"Checkout with" = "结账方式";
+
+/* Shipping information - Placeholder for city */
+"City" = "城市";
+
+/* Alert title for credit card problem
+   Order page - check out with Credit Card */
+"Credit card" = "信用卡";
+
+/* Thank you page - Title of shipping information section
+   Title of shipping information page */
+"Delivery Information" = "送货信息";
+
+/* Design again button after purchasing */
+"Design again" = "再次设计";
+
+/* Order page - discount amount */
+"Discount Amount" = "折扣";
+
+/* Shipping information - Receiver's email */
+"Email" = "电子邮件地址";
+
+/* Check update */
+"Error in loading data" = "加载数据出错";
+
+/* Alert - Are you sure? */
+"Leave without saving.\nAre you sure?" = "未保存离开\n您确定吗？";
+
+/* Back to the original app */
+"Leaving Snaptee" = "正在离开Snaptee";
+
+/* Loading view message - Loading new style */
+"Loading new styles..." = "正在加载新样式……";
+
+/* Loading view message */
+"Loading..." = "正在加载……";
+
+/* Shipping information - Receiver's name */
+"Name" = "名字";
+
+/* Order page - next button */
+"Next" = "下一步";
+
+/* Alert button - not now */
+"Not now" = "以后再说";
+
+/* OK button for alert box */
+"OK" = "确定";
+
+/* Loading view message - one second */
+"One sec..." = "请稍候……";
+
+/* Thank you page - order ID */
+"Order ID:" = "订单ID：";
+
+/* Alert title for incomplete payment process */
+"Order incomplete" = "订单未完成";
+
+/* Alert title for incomplete payment process - unknown problem */
+"Order incomplete - unknown problem" = "订单未完成——未知问题";
+
+/* Order more button after purchasing */
+"Order more" = "订购更多";
+
+/* Submit button */
+"Order Now" = "立即订购";
+
+/* Order Page - pay by */
+"Pay by %@" = "通过%@支付";
+
+/* Order Page - Payment method section */
+"Payment" = "付款";
+
+/* Order page - check out with PayPal */
+"PayPal" = "PayPal";
+
+/* Shipping information - Receiver's phone */
+"Phone" = "电话号码";
+
+/* Shipping information - Placeholder for phone number */
+"Phone number" = "电话号码";
+
+/* Please try again */
+"Please try again" = "请重试";
+
+/* Order page - ship to the following country */
+"Ship to:" = "运送到：";
+
+/* Order page - title for select size */
+"Size" = "尺寸";
+
+/* Order page - T-shirt title */
+"Snaptee T-shirt:" = "Snaptee T恤:";
+
+/* Shipping information - Placeholder for state */
+"State" = "省/直辖市";
+
+/* Order page - title for select style */
+"Style" = "款式";
+
+/* Order page - check out with Tenpay */
+"Tenpay" = "财付通";
+
+/* Title for action sheet after purchasing
+   Title for thank you button after purchasing */
+"Thank you" = "谢谢！";
+
+/* Title for thank you page alert box */
+"Thank you for your purchase" = "感谢您的购买";
+
+/* Retry button */
+"Try again" = "重试";
+
+/* Order page - use another credit card */
+"User another card" = "使用其他信用卡";
+
+/* Username validation */
+"User name can only contains alphanumeric, hyphen(-), dot(.) or underscore(_)!" = "用户名只能包含字母数字、连字号(-)、点(.)或下划线(_)！";
+
+/* Alert button - Yes */
+"Yes" = "是";
+
+/* Content for thank you page alert box */
+"You will receive a confirmation email soon!\nPlease check your inbox, %@" = "您将很快收到一封确认电子邮件！\n请查收您的邮箱, %@";
+
+/* Card is invalid */
+"Your card is invalid" = "您的信用卡无效";
+
+/* Shipping information - Placeholder for zip code */
+"Zip Code (optional)" = "邮编（可选）";
+

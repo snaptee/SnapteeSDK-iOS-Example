@@ -1,0 +1,163 @@
+/* Order page - place holder for coupon code */
+"Add coupon code" = "Gutscheincode hinzufügen";
+
+/* Shipping information - Receiver's address */
+"Address" = "Adresse";
+
+/* Shipping information - Placeholder for address */
+"Address line 1" = "Adresszeile 1";
+
+/* Shipping information - Placeholder for address line 2 */
+"Address line 2 (Optional)" = "Adresszeile 2 (optional)";
+
+/* Apply button for coupon code */
+"Apply" = "Anwenden";
+
+/* Alert - Are you sure? */
+"Are you sure?" = "Bist du sicher?";
+
+/* Back to the original app */
+"Back to %@" = "Zurück zu %@";
+
+/* Back to design */
+"Back to design" = "Zurück zum Design";
+
+/* Back to order page */
+"Back to order page" = "Zurück zur Bestellseite";
+
+/* Cancel button
+   Cancel button for coupon code */
+"Cancel" = "Abbrechen";
+
+/* Order page - Please select the following checkout method */
+"Checkout with" = "Einkaufen mit";
+
+/* Shipping information - Placeholder for city */
+"City" = "Stadt";
+
+/* Alert title for credit card problem
+   Order page - check out with Credit Card */
+"Credit card" = "Kreditkarte";
+
+/* Thank you page - Title of shipping information section
+   Title of shipping information page */
+"Delivery Information" = "Lieferinformationen";
+
+/* Design again button after purchasing */
+"Design again" = "Erneut gestalten";
+
+/* Order page - discount amount */
+"Discount Amount" = "Preisnachlass";
+
+/* Shipping information - Receiver's email */
+"Email" = "E-Mail";
+
+/* Check update */
+"Error in loading data" = "Fehler beim Laden der Daten";
+
+/* Alert - Are you sure? */
+"Leave without saving.\nAre you sure?" = "Verlassen, ohne zu speichern\nBist du sicher?";
+
+/* Back to the original app */
+"Leaving Snaptee" = "Snaptee verlassen";
+
+/* Loading view message - Loading new style */
+"Loading new styles..." = "Neue Stile werden geladen...";
+
+/* Loading view message */
+"Loading..." = "Ladevorgang läuft...";
+
+/* Shipping information - Receiver's name */
+"Name" = "Vorname";
+
+/* Order page - next button */
+"Next" = "Weiter";
+
+/* Alert button - not now */
+"Not now" = "Nicht jetzt";
+
+/* OK button for alert box */
+"OK" = "OK";
+
+/* Loading view message - one second */
+"One sec..." = "Einen Moment bitte ...";
+
+/* Thank you page - order ID */
+"Order ID:" = "Bestellnummer:";
+
+/* Alert title for incomplete payment process */
+"Order incomplete" = "Bestellung unvollständig";
+
+/* Alert title for incomplete payment process - unknown problem */
+"Order incomplete - unknown problem" = "Bestellung unvollständig – unbekanntes Problem";
+
+/* Order more button after purchasing */
+"Order more" = "Mehr bestellen";
+
+/* Submit button */
+"Order Now" = "Jetzt bestellen";
+
+/* Order Page - pay by */
+"Pay by %@" = "Mit %@ bezahlen";
+
+/* Order Page - Payment method section */
+"Payment" = "Zahlung";
+
+/* Order page - check out with PayPal */
+"PayPal" = "PayPal";
+
+/* Shipping information - Receiver's phone */
+"Phone" = "Telefon";
+
+/* Shipping information - Placeholder for phone number */
+"Phone number" = "Telefonnummer";
+
+/* Please try again */
+"Please try again" = "Bitte versuche es erneut";
+
+/* Order page - ship to the following country */
+"Ship to:" = "Lieferadresse:";
+
+/* Order page - title for select size */
+"Size" = "Größe";
+
+/* Order page - T-shirt title */
+"Snaptee T-shirt:" = "Snaptee T-Shirt:";
+
+/* Shipping information - Placeholder for state */
+"State" = "Bundesland/Kanton";
+
+/* Order page - title for select style */
+"Style" = "Stil";
+
+/* Order page - check out with Tenpay */
+"Tenpay" = "Tenpay";
+
+/* Title for action sheet after purchasing
+   Title for thank you button after purchasing */
+"Thank you" = "Danke";
+
+/* Title for thank you page alert box */
+"Thank you for your purchase" = "Vielen Dank für deinen Einkauf";
+
+/* Retry button */
+"Try again" = "Erneut versuchen";
+
+/* Order page - use another credit card */
+"User another card" = "Andere Karte verwenden";
+
+/* Username validation */
+"User name can only contains alphanumeric, hyphen(-), dot(.) or underscore(_)!" = "Benutzername kann nur alphanumerische Zeichen, Bindestriche (-), Punkte (.) oder Unterstriche (_) enthalten!";
+
+/* Alert button - Yes */
+"Yes" = "Ja";
+
+/* Content for thank you page alert box */
+"You will receive a confirmation email soon!\nPlease check your inbox, %@" = "Du wirst in Kürze eine Bestätigungs-E-Mail erhalten.\nBitte checke deine Mailbox, %@";
+
+/* Card is invalid */
+"Your card is invalid" = "Deine Karte ist ungültig";
+
+/* Shipping information - Placeholder for zip code */
+"Zip Code (optional)" = "PLZ (optional)";
+

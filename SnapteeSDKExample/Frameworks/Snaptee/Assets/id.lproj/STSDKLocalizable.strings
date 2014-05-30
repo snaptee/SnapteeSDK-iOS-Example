@@ -1,0 +1,163 @@
+/* Order page - place holder for coupon code */
+"Add coupon code" = "Tambahkan kode kupon";
+
+/* Shipping information - Receiver's address */
+"Address" = "Alamat";
+
+/* Shipping information - Placeholder for address */
+"Address line 1" = "Alamat (baris 1)";
+
+/* Shipping information - Placeholder for address line 2 */
+"Address line 2 (Optional)" = "Alamat (baris 2 - opsional)";
+
+/* Apply button for coupon code */
+"Apply" = "Terapkan";
+
+/* Alert - Are you sure? */
+"Are you sure?" = "Kamu yakin?";
+
+/* Back to the original app */
+"Back to %@" = "Kembali ke %@";
+
+/* Back to design */
+"Back to design" = "Kembali ke desain";
+
+/* Back to order page */
+"Back to order page" = "Kembali ke halaman pemesanan";
+
+/* Cancel button
+   Cancel button for coupon code */
+"Cancel" = "Batal";
+
+/* Order page - Please select the following checkout method */
+"Checkout with" = "Checkout menggunakan";
+
+/* Shipping information - Placeholder for city */
+"City" = "Kota";
+
+/* Alert title for credit card problem
+   Order page - check out with Credit Card */
+"Credit card" = "Kreditkarte";
+
+/* Thank you page - Title of shipping information section
+   Title of shipping information page */
+"Delivery Information" = "Lieferinformationen";
+
+/* Design again button after purchasing */
+"Design again" = "Desain lagi";
+
+/* Order page - discount amount */
+"Discount Amount" = "Jumlah Diskon";
+
+/* Shipping information - Receiver's email */
+"Email" = "Email";
+
+/* Check update */
+"Error in loading data" = "Terjadi kesalahan saat memuat data";
+
+/* Alert - Are you sure? */
+"Leave without saving.\nAre you sure?" = "Pergi tanpa menyimpan\nKamu yakin?";
+
+/* Back to the original app */
+"Leaving Snaptee" = "Meninggalkan Snaptee";
+
+/* Loading view message - Loading new style */
+"Loading new styles..." = "Memuat gaya baru...";
+
+/* Loading view message */
+"Loading..." = "Memuatkan...";
+
+/* Shipping information - Receiver's name */
+"Name" = "Nama";
+
+/* Order page - next button */
+"Next" = "Berikutnya";
+
+/* Alert button - not now */
+"Not now" = "Tidak sekarang";
+
+/* OK button for alert box */
+"OK" = "OK";
+
+/* Loading view message - one second */
+"One sec..." = "Tunggu sebentar...";
+
+/* Thank you page - order ID */
+"Order ID:" = "ID Pesanan:";
+
+/* Alert title for incomplete payment process */
+"Order incomplete" = "Pesanan tidak lengkap";
+
+/* Alert title for incomplete payment process - unknown problem */
+"Order incomplete - unknown problem" = "Pesanan tidak lengkap - masalah tidak diketahui";
+
+/* Order more button after purchasing */
+"Order more" = "Pesan lagi";
+
+/* Submit button */
+"Order Now" = "Pesan Sekarang";
+
+/* Order Page - pay by */
+"Pay by %@" = "Bayar dengan %@";
+
+/* Order Page - Payment method section */
+"Payment" = "Pembayaran";
+
+/* Order page - check out with PayPal */
+"PayPal" = "PayPal";
+
+/* Shipping information - Receiver's phone */
+"Phone" = "Telepon";
+
+/* Shipping information - Placeholder for phone number */
+"Phone number" = "Nomor telepon";
+
+/* Please try again */
+"Please try again" = "Mohon coba lagi";
+
+/* Order page - ship to the following country */
+"Ship to:" = "Kirimkan ke:";
+
+/* Order page - title for select size */
+"Size" = "Ukuran";
+
+/* Order page - T-shirt title */
+"Snaptee T-shirt:" = "Kaos Oblong Snaptee";
+
+/* Shipping information - Placeholder for state */
+"State" = "Provinsi";
+
+/* Order page - title for select style */
+"Style" = "Gaya";
+
+/* Order page - check out with Tenpay */
+"Tenpay" = "Tenpay";
+
+/* Title for action sheet after purchasing
+   Title for thank you button after purchasing */
+"Thank you" = "Terima Kasih";
+
+/* Title for thank you page alert box */
+"Thank you for your purchase" = "Terima kasih atas pembelianmu";
+
+/* Retry button */
+"Try again" = "Coba Lagi";
+
+/* Order page - use another credit card */
+"User another card" = "Gunakan kartu kredit lainnya";
+
+/* Username validation */
+"User name can only contains alphanumeric, hyphen(-), dot(.) or underscore(_)!" = "Nama pengguna hanya dapat terdiri dari alfanumerik, strip(-), titik(.) atau garis bawah(_)!";
+
+/* Alert button - Yes */
+"Yes" = "Ya";
+
+/* Content for thank you page alert box */
+"You will receive a confirmation email soon!\nPlease check your inbox, %@" = "Kamu akan menerima email konfirmasi segera!\nSilakan periksa email masukmu. %@";
+
+/* Card is invalid */
+"Your card is invalid" = "Kartu kreditmu tidak sah";
+
+/* Shipping information - Placeholder for zip code */
+"Zip Code (optional)" = "Kode Pos (opsional)";
+

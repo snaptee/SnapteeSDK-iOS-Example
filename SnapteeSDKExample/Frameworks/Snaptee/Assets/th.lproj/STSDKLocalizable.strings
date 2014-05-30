@@ -1,0 +1,163 @@
+/* Order page - place holder for coupon code */
+"Add coupon code" = "เพิ่มรหัสคูปอง";
+
+/* Shipping information - Receiver's address */
+"Address" = "ที่อยู่";
+
+/* Shipping information - Placeholder for address */
+"Address line 1" = "ที่อยู่บรรทัดที่ 1";
+
+/* Shipping information - Placeholder for address line 2 */
+"Address line 2 (Optional)" = "ที่อยู่บรรทัดที่ 2 (เลือกได้)";
+
+/* Apply button for coupon code */
+"Apply" = "ใช้งาน";
+
+/* Alert - Are you sure? */
+"Are you sure?" = "คุณแน่ใจหรือ?";
+
+/* Back to the original app */
+"Back to %@" = "กลับไปยัง %@";
+
+/* Back to design */
+"Back to design" = "กลับไปออกแบบ";
+
+/* Back to order page */
+"Back to order page" = "กลับไปยังหน้าการสั่งซื้อ";
+
+/* Cancel button
+   Cancel button for coupon code */
+"Cancel" = "ยกเลิก";
+
+/* Order page - Please select the following checkout method */
+"Checkout with" = "ชำระเงินด้วย";
+
+/* Shipping information - Placeholder for city */
+"City" = "เมือง";
+
+/* Alert title for credit card problem
+   Order page - check out with Credit Card */
+"Credit card" = "บัตรเครดิต";
+
+/* Thank you page - Title of shipping information section
+   Title of shipping information page */
+"Delivery Information" = "ข้อมูลการจัดส่ง";
+
+/* Design again button after purchasing */
+"Design again" = "ออกแบบใหม่";
+
+/* Order page - discount amount */
+"Discount Amount" = "ส่วนลด";
+
+/* Shipping information - Receiver's email */
+"Email" = "อีเมล";
+
+/* Check update */
+"Error in loading data" = "เกิดข้อผิดพลาดขณะโหลดข้อมูล";
+
+/* Alert - Are you sure? */
+"Leave without saving.\nAre you sure?" = "ออกโดยไม่ต้องบันทึก\nคุณแน่ใจหรือ?";
+
+/* Back to the original app */
+"Leaving Snaptee" = "กำลังออกจาก Snaptee";
+
+/* Loading view message - Loading new style */
+"Loading new styles..." = "กำลังโหลดสไตล์ใหม่ๆ";
+
+/* Loading view message */
+"Loading..." = "กำลังโหลด...";
+
+/* Shipping information - Receiver's name */
+"Name" = "ชื่อ";
+
+/* Order page - next button */
+"Next" = "ถัดไป";
+
+/* Alert button - not now */
+"Not now" = "ไม่ใช่ตอนนี้";
+
+/* OK button for alert box */
+"OK" = "โอเค";
+
+/* Loading view message - one second */
+"One sec..." = "แป๊บ...";
+
+/* Thank you page - order ID */
+"Order ID:" = "รหัสการสั่งซื้อ:";
+
+/* Alert title for incomplete payment process */
+"Order incomplete" = "การสั่งซื้อไม่สมบูรณ์";
+
+/* Alert title for incomplete payment process - unknown problem */
+"Order incomplete - unknown problem" = "การสั่งซื้อไม่สมบูรณ์ - ไม่ทราบสาเหตุ";
+
+/* Order more button after purchasing */
+"Order more" = "สั่งซื้อเพิ่ม";
+
+/* Submit button */
+"Order Now" = "สั่งตอนนี้";
+
+/* Order Page - pay by */
+"Pay by %@" = "จ่ายเงินด้วย%@";
+
+/* Order Page - Payment method section */
+"Payment" = "การชำระเงิน";
+
+/* Order page - check out with PayPal */
+"PayPal" = "PayPal";
+
+/* Shipping information - Receiver's phone */
+"Phone" = "โทรศัพท์";
+
+/* Shipping information - Placeholder for phone number */
+"Phone number" = "หมายเลขโทรศัพท์";
+
+/* Please try again */
+"Please try again" = "โปรดลองใหม่อีกครั้ง";
+
+/* Order page - ship to the following country */
+"Ship to:" = "จัดส่งที่:";
+
+/* Order page - title for select size */
+"Size" = "ขนาด";
+
+/* Order page - T-shirt title */
+"Snaptee T-shirt:" = "เสื้อยืด Snaptee";
+
+/* Shipping information - Placeholder for state */
+"State" = "จังหวัด";
+
+/* Order page - title for select style */
+"Style" = "สไตล์";
+
+/* Order page - check out with Tenpay */
+"Tenpay" = "Tenpay";
+
+/* Title for action sheet after purchasing
+   Title for thank you button after purchasing */
+"Thank you" = "ขอบคุณ";
+
+/* Title for thank you page alert box */
+"Thank you for your purchase" = "ขอขอบคุณสำหรับการสั่งซื้อ";
+
+/* Retry button */
+"Try again" = "ลองใหม่";
+
+/* Order page - use another credit card */
+"User another card" = "ใช้บัตรอื่น";
+
+/* Username validation */
+"User name can only contains alphanumeric, hyphen(-), dot(.) or underscore(_)!" = "ชื่อผู้ใช้ควรมีแค่ตัวอักษรและตัวเลข ยัติภังค์(-) จุด(.) หรือขีดเส้นใต้(_)";
+
+/* Alert button - Yes */
+"Yes" = "ใช่";
+
+/* Content for thank you page alert box */
+"You will receive a confirmation email soon!\nPlease check your inbox, %@" = "คุณจะได้รับอีเมลยืนยันเร็ว ๆ นี้!\nโปรดตรวจสอบกล่องจดหมายของคุณ %@";
+
+/* Card is invalid */
+"Your card is invalid" = "หมายเลขบัตรของคุณไม่ถูกต้อง";
+
+/* Shipping information - Placeholder for zip code */
+"Zip Code (optional)" = "รหัสไปรษณีย์ (เลือกได้)";
+

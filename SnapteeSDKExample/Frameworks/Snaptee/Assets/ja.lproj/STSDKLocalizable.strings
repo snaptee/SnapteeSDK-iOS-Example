@@ -1,0 +1,163 @@
+/* Order page - place holder for coupon code */
+"Add coupon code" = "クーポン番号を入力";
+
+/* Shipping information - Receiver's address */
+"Address" = "住所";
+
+/* Shipping information - Placeholder for address */
+"Address line 1" = "住所1";
+
+/* Shipping information - Placeholder for address line 2 */
+"Address line 2 (Optional)" = "住所2（任意）";
+
+/* Apply button for coupon code */
+"Apply" = "適用する";
+
+/* Alert - Are you sure? */
+"Are you sure?" = "本当にいいですか？";
+
+/* Back to the original app */
+"Back to %@" = "%@に戻る";
+
+/* Back to design */
+"Back to design" = "デザインに戻る";
+
+/* Back to order page */
+"Back to order page" = "注文ページに戻る";
+
+/* Cancel button
+   Cancel button for coupon code */
+"Cancel" = "キャンセル";
+
+/* Order page - Please select the following checkout method */
+"Checkout with" = "お支払方法：";
+
+/* Shipping information - Placeholder for city */
+"City" = "市";
+
+/* Alert title for credit card problem
+   Order page - check out with Credit Card */
+"Credit card" = "クレジットカード";
+
+/* Thank you page - Title of shipping information section
+   Title of shipping information page */
+"Delivery Information" = "お届け先情報";
+
+/* Design again button after purchasing */
+"Design again" = "再度デザイン";
+
+/* Order page - discount amount */
+"Discount Amount" = "割引額";
+
+/* Shipping information - Receiver's email */
+"Email" = "メールアドレス";
+
+/* Check update */
+"Error in loading data" = "データのロード中にエラーが発生しました";
+
+/* Alert - Are you sure? */
+"Leave without saving.\nAre you sure?" = "保存しないで終了します\n本当にいいですか？";
+
+/* Back to the original app */
+"Leaving Snaptee" = "Snapteeから移動します";
+
+/* Loading view message - Loading new style */
+"Loading new styles..." = "新しいスタイルのロード中・・・";
+
+/* Loading view message */
+"Loading..." = "ロード中・・・";
+
+/* Shipping information - Receiver's name */
+"Name" = "名前";
+
+/* Order page - next button */
+"Next" = "次";
+
+/* Alert button - not now */
+"Not now" = "後で";
+
+/* OK button for alert box */
+"OK" = "OK";
+
+/* Loading view message - one second */
+"One sec..." = "しばらくお待ちください・・・";
+
+/* Thank you page - order ID */
+"Order ID:" = "ご注文ID：";
+
+/* Alert title for incomplete payment process */
+"Order incomplete" = "注文が完了していません";
+
+/* Alert title for incomplete payment process - unknown problem */
+"Order incomplete - unknown problem" = "注文未完了－不明な問題";
+
+/* Order more button after purchasing */
+"Order more" = "続けて注文";
+
+/* Submit button */
+"Order Now" = "今すぐ注文する";
+
+/* Order Page - pay by */
+"Pay by %@" = "%@で支払う";
+
+/* Order Page - Payment method section */
+"Payment" = "お支払い";
+
+/* Order page - check out with PayPal */
+"PayPal" = "PayPal";
+
+/* Shipping information - Receiver's phone */
+"Phone" = "電話番号";
+
+/* Shipping information - Placeholder for phone number */
+"Phone number" = "電話番号";
+
+/* Please try again */
+"Please try again" = "再試行してください";
+
+/* Order page - ship to the following country */
+"Ship to:" = "お届け先住所：";
+
+/* Order page - title for select size */
+"Size" = "サイズ";
+
+/* Order page - T-shirt title */
+"Snaptee T-shirt:" = "SnapteeのTシャツ：";
+
+/* Shipping information - Placeholder for state */
+"State" = "県";
+
+/* Order page - title for select style */
+"Style" = "スタイル";
+
+/* Order page - check out with Tenpay */
+"Tenpay" = "Tenpay";
+
+/* Title for action sheet after purchasing
+   Title for thank you button after purchasing */
+"Thank you" = "ありがとうございました！";
+
+/* Title for thank you page alert box */
+"Thank you for your purchase" = "ご購入ありがとうございます";
+
+/* Retry button */
+"Try again" = "再試行";
+
+/* Order page - use another credit card */
+"User another card" = "別のカードを使う";
+
+/* Username validation */
+"User name can only contains alphanumeric, hyphen(-), dot(.) or underscore(_)!" = "ユーザーネームに使用できるのは半角のアルファベット、ハイフン（-）、ピリオド（.）、下線（_）のみです！";
+
+/* Alert button - Yes */
+"Yes" = "はい";
+
+/* Content for thank you page alert box */
+"You will receive a confirmation email soon!\nPlease check your inbox, %@" = "すぐに確認メールをお届けします！\n受信トレイを確認してください。%@";
+
+/* Card is invalid */
+"Your card is invalid" = "無効なカードです";
+
+/* Shipping information - Placeholder for zip code */
+"Zip Code (optional)" = "郵便番号（任意）";
+

@@ -1,0 +1,163 @@
+/* Order page - place holder for coupon code */
+"Add coupon code" = "쿠폰 코드 추가";
+
+/* Shipping information - Receiver's address */
+"Address" = "주소";
+
+/* Shipping information - Placeholder for address */
+"Address line 1" = "주소 1";
+
+/* Shipping information - Placeholder for address line 2 */
+"Address line 2 (Optional)" = "주소 2 (필수 아님)";
+
+/* Apply button for coupon code */
+"Apply" = "적용";
+
+/* Alert - Are you sure? */
+"Are you sure?" = "확실합니까?";
+
+/* Back to the original app */
+"Back to %@" = "%@로 돌아가기";
+
+/* Back to design */
+"Back to design" = "디자인으로 돌아가기";
+
+/* Back to order page */
+"Back to order page" = "주문 페이지로 돌아가기";
+
+/* Cancel button
+   Cancel button for coupon code */
+"Cancel" = "취소";
+
+/* Order page - Please select the following checkout method */
+"Checkout with" = "결제 방식";
+
+/* Shipping information - Placeholder for city */
+"City" = "시";
+
+/* Alert title for credit card problem
+   Order page - check out with Credit Card */
+"Credit card" = "신용카드";
+
+/* Thank you page - Title of shipping information section
+   Title of shipping information page */
+"Delivery Information" = "배송 정보";
+
+/* Design again button after purchasing */
+"Design again" = "다시 디자인하기";
+
+/* Order page - discount amount */
+"Discount Amount" = "할인 금액";
+
+/* Shipping information - Receiver's email */
+"Email" = "이메일";
+
+/* Check update */
+"Error in loading data" = "데이터 불러오기 오류";
+
+/* Alert - Are you sure? */
+"Leave without saving.\nAre you sure?" = "저장하지 않고 나가기\n확실합니까?";
+
+/* Back to the original app */
+"Leaving Snaptee" = "Snaptee 종료";
+
+/* Loading view message - Loading new style */
+"Loading new styles..." = "새로운 스타일 불러오기…";
+
+/* Loading view message */
+"Loading..." = "로딩 중...";
+
+/* Shipping information - Receiver's name */
+"Name" = "이름";
+
+/* Order page - next button */
+"Next" = "다음";
+
+/* Alert button - not now */
+"Not now" = "나중에";
+
+/* OK button for alert box */
+"OK" = "확인";
+
+/* Loading view message - one second */
+"One sec..." = "잠시만 기다려 주세요...";
+
+/* Thank you page - order ID */
+"Order ID:" = "주문 ID:";
+
+/* Alert title for incomplete payment process */
+"Order incomplete" = "주문이 완료되지 않음";
+
+/* Alert title for incomplete payment process - unknown problem */
+"Order incomplete - unknown problem" = "주문이 완료되지 않음 – 미확인 문제";
+
+/* Order more button after purchasing */
+"Order more" = "추가 주문";
+
+/* Submit button */
+"Order Now" = "지금 주문";
+
+/* Order Page - pay by */
+"Pay by %@" = "결제 방법 %@";
+
+/* Order Page - Payment method section */
+"Payment" = "결제";
+
+/* Order page - check out with PayPal */
+"PayPal" = "PayPal";
+
+/* Shipping information - Receiver's phone */
+"Phone" = "전화";
+
+/* Shipping information - Placeholder for phone number */
+"Phone number" = "전화번호";
+
+/* Please try again */
+"Please try again" = "다시 시도하세요";
+
+/* Order page - ship to the following country */
+"Ship to:" = "배송 주소:";
+
+/* Order page - title for select size */
+"Size" = "사이즈";
+
+/* Order page - T-shirt title */
+"Snaptee T-shirt:" = "Snaptee 티셔츠:";
+
+/* Shipping information - Placeholder for state */
+"State" = "도";
+
+/* Order page - title for select style */
+"Style" = "스타일";
+
+/* Order page - check out with Tenpay */
+"Tenpay" = "Tenpay";
+
+/* Title for action sheet after purchasing
+   Title for thank you button after purchasing */
+"Thank you" = "감사합니다!";
+
+/* Title for thank you page alert box */
+"Thank you for your purchase" = "구입해 주셔서 감사합니다.";
+
+/* Retry button */
+"Try again" = "재시도";
+
+/* Order page - use another credit card */
+"User another card" = "다른 카드로 결제";
+
+/* Username validation */
+"User name can only contains alphanumeric, hyphen(-), dot(.) or underscore(_)!" = "사용자명은 문자와 숫자, 하이픈(-), 점(.) 혹은 밑줄(_)로만 구성됩니다!";
+
+/* Alert button - Yes */
+"Yes" = "예";
+
+/* Content for thank you page alert box */
+"You will receive a confirmation email soon!\nPlease check your inbox, %@" = "확인 이메일을 곧 수신하게 됩니다!\n메일함을 확인하세요. %@";
+
+/* Card is invalid */
+"Your card is invalid" = "유효하지 않은 카드입니다";
+
+/* Shipping information - Placeholder for zip code */
+"Zip Code (optional)" = "우편번호 (필수 아님)";
+
