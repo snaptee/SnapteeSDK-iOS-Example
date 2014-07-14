@@ -19,10 +19,20 @@
  
  */
 
+typedef enum {
+    STImageFileTypePNG=0,
+    STImageFileTypeJPG=1
+} STImageFileType;
+
 - (id)initWithAffiliateID:(NSString*) affiliateID
                  app_name:(NSString*) app_name
                     image:(UIImage*)image
                   caption:(NSString*) caption;
-    
+
+- (id)initWithAffiliateID:(NSString*) affiliateID
+                 app_name:(NSString*) app_name
+                    image:(UIImage*)image
+                file_type:(STImageFileType) file_type
+                  caption:(NSString*) caption;
 
 @end

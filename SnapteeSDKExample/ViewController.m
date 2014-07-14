@@ -21,11 +21,18 @@
 {
     [super viewDidLoad];
     
-    UIButton * button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 250, 40)];
-    [button setCenter:self.view.center];
-    [button setTitle:@"Design with Snaptee" forState:UIControlStateNormal];
-    [button setBackgroundColor:[UIColor redColor]];
+    UIImageView * backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"affiliate.png"]];
+    [backgroundView setCenter:self.view.center];
+    
+    
+    UIButton * button = [[UIButton alloc] initWithFrame:CGRectMake(0, 300, 320, 200)];
+//    [button setCenter:self.view.center];
+//    [button setTitle:@"Design with Snaptee" forState:UIControlStateNormal];
+    [button setBackgroundColor:[UIColor clearColor]];
     [button addTarget:self action:@selector(designWithSnaptee:) forControlEvents:UIControlEventTouchUpInside];
+
+    
+    [self.view addSubview:backgroundView];
     [self.view addSubview:button];
     
 }
@@ -40,10 +47,11 @@
     image: UIImage passing to Snaptee
     caption: Optional. Description of the image. Typically entered by users
     */
-    STViewController * stViewController = [[STViewController alloc] initWithAffiliateID:@"my-camera-id"
-                                                                               app_name:@"My Camera"
-                                                                                  image:[UIImage imageNamed:@"sample.png"]
-                                                                                caption:@"Testing Caption!"];
+    STViewController * stViewController = [[STViewController alloc] initWithAffiliateID:@"denimfier-id"
+                                                                               app_name:@"Denimfier"
+                                                                                  image:[UIImage imageNamed:@"sample2.jpg"]
+                                                                              file_type:STImageFileTypeJPG
+                                                                                caption:@"First goal in World Cup!"];
     
     [self presentViewController:stViewController animated:YES completion:nil];
     

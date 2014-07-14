@@ -44,11 +44,13 @@ https://github.com/stripe/stripe-ios
     - affiliateID: Assigned by Snaptee
     - app_name: Optional. Will be shown in the action sheet when leaving Snaptee e.g. "Back to app_name"
     - image: UIImage passing to Snaptee
+    - image file type: JPG (STImageFileTypeJPG) or PNG (STImageFileTypePNG)
     - caption: Optional. Description of the image. Typically entered by users
 ```objc
 STViewController * stViewController = [[STViewController alloc] initWithAffiliateID:@"my-camera-id"
                                                                            app_name:@"My Camera"
                                                                               image:[UIImage imageNamed:@"sample.png"]
+                                                                          file_type:STImageFileTypePNG
                                                                             caption:@"Testing Caption!"];
 [self presentViewController:stViewController animated:YES completion:nil];
 ```
