@@ -8,16 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol STViewControllerDelegate;
+
 @interface STViewController : UINavigationController
 
 /*
- 
  affiliateID: Assigned by Snaptee
  app_name: Optional. Will be shown in the action sheet when leaving Snaptee e.g. "Back to app_name"
  image: UIImage passing to Snaptee
  caption: Optional. Description of the image. Typically entered by users
- 
  */
+@property(nonatomic, weak) id<STViewControllerDelegate> ST_delegate;
 
 typedef enum {
     STImageFileTypePNG=0,
@@ -25,14 +26,21 @@ typedef enum {
 } STImageFileType;
 
 - (id)initWithAffiliateID:(NSString*) affiliateID
-                 app_name:(NSString*) app_name
-                    image:(UIImage*)image
+                  appName:(NSString*) appName
+                    image:(UIImage*) image
                   caption:(NSString*) caption;
 
 - (id)initWithAffiliateID:(NSString*) affiliateID
-                 app_name:(NSString*) app_name
-                    image:(UIImage*)image
-                file_type:(STImageFileType) file_type
+                  appName:(NSString*) appName
+                    image:(UIImage*) image
+                 fileType:(STImageFileType) fileType
                   caption:(NSString*) caption;
 
+@end
+
+
+@protocol STViewControllerDelegate <NSObject>
+@optional
+- (void)STViewControllerWillDismiss:(STViewController *)viewController;
+- (void)STViewControllerDidDismiss:(STViewController *)viewController;
 @end

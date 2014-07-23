@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "STViewController.h"
+
+@interface ViewController : UIViewController <STViewControllerDelegate>
 
 @end

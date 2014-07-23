@@ -47,16 +47,27 @@
     image: UIImage passing to Snaptee
     caption: Optional. Description of the image. Typically entered by users
     */
+    
     STViewController * stViewController = [[STViewController alloc] initWithAffiliateID:@"denimfier-id"
-                                                                               app_name:@"Denimfier"
+                                                                                appName:@"Denimfier"
                                                                                   image:[UIImage imageNamed:@"sample2.jpg"]
-                                                                              file_type:STImageFileTypeJPG
+                                                                               fileType:STImageFileTypeJPG
                                                                                 caption:@"First goal in World Cup!"];
+    [stViewController setST_delegate:self];
+    
     
     [self presentViewController:stViewController animated:YES completion:nil];
     
 }
 
+- (void)STViewControllerWillDismiss:(STViewController *)viewController{
+    
+    NSLog(@"ST View Will Dismiss");
+}
+- (void)STViewControllerDidDismiss:(STViewController *)viewController{
+    
+    NSLog(@"ST View Did Dismiss");
+}
 
 - (void)didReceiveMemoryWarning
 {
