@@ -58,8 +58,8 @@ STViewController * stViewController = [[STViewController alloc] initWithAffiliat
 [self presentViewController:stViewController animated:YES completion:nil];
 ```
 - Include the following delegate function if needed
-```objc
 
+```objc
 - (void)STViewControllerWillDismiss:(STViewController *)viewController{
     
     NSLog(@"ST View Will Dismiss");
@@ -68,7 +68,7 @@ STViewController * stViewController = [[STViewController alloc] initWithAffiliat
     
     NSLog(@"ST View Did Dismiss");
 }
-```objc
+```
 
 To test:
 
