@@ -35,9 +35,11 @@ https://github.com/stripe/stripe-ios
 
 4) In your app, add the following code to present Snaptee
 
-- Import Snaptee View Controller
+- Import Snaptee View Controller in your header (.h) and set STViewControllerDelegate if needed
 ```objc
 #import "STViewController.h"
+@interface ViewController : UIViewController <STViewControllerDelegate>
+@end
 ```
     
 - Initialize Snaptee View Controller
@@ -48,11 +50,24 @@ https://github.com/stripe/stripe-ios
     - caption: Optional. Description of the image. Typically entered by users
 ```objc
 STViewController * stViewController = [[STViewController alloc] initWithAffiliateID:@"my-camera-id"
-                                                                           app_name:@"My Camera"
+                                                                           appName:@"My Camera"
                                                                               image:[UIImage imageNamed:@"sample.png"]
-                                                                          file_type:STImageFileTypePNG
+                                                                          fileType:STImageFileTypePNG
                                                                             caption:@"Testing Caption!"];
+[stViewController setST_delegate:self];
 [self presentViewController:stViewController animated:YES completion:nil];
+```
+- Include the following delegate function if needed
+
+```objc
+- (void)STViewControllerWillDismiss:(STViewController *)viewController{
+    
+    NSLog(@"ST View Will Dismiss");
+}
+- (void)STViewControllerDidDismiss:(STViewController *)viewController{
+    
+    NSLog(@"ST View Did Dismiss");
+}
 ```
 
 To test:
