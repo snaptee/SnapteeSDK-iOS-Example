@@ -16,6 +16,7 @@
  affiliateID: Assigned by Snaptee
  app_name: Optional. Will be shown in the action sheet when leaving Snaptee e.g. "Back to app_name"
  image: UIImage passing to Snaptee
+ fileType: JPG or PNG
  caption: Optional. Description of the image. Typically entered by users
  */
 @property(nonatomic, weak) id<STViewControllerDelegate> ST_delegate;
@@ -40,7 +41,6 @@ typedef enum {
 
 
 @protocol STViewControllerDelegate <NSObject>
-@optional
-- (void)STViewControllerWillDismiss:(STViewController *)viewController;
-- (void)STViewControllerDidDismiss:(STViewController *)viewController;
+@required
+- (void)STViewControllerDidFinish:(STViewController *)viewController;
 @end
