@@ -60,14 +60,11 @@
     
 }
 
-- (void)STViewControllerWillDismiss:(STViewController *)viewController{
-    
-    NSLog(@"ST View Will Dismiss");
+#pragma mark STViewController Delegate functions
+- (void)STViewControllerDidFinish:(STViewController *)viewController{
+    [viewController dismissViewControllerAnimated:YES completion:nil];
 }
-- (void)STViewControllerDidDismiss:(STViewController *)viewController{
-    
-    NSLog(@"ST View Did Dismiss");
-}
+
 
 - (void)didReceiveMemoryWarning
 {
