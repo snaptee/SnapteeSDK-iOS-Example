@@ -57,16 +57,11 @@ STViewController * stViewController = [[STViewController alloc] initWithAffiliat
 [stViewController setST_delegate:self];
 [self presentViewController:stViewController animated:YES completion:nil];
 ```
-- Include the following delegate function if needed
+- Include the following delegate function to dismiss
 
 ```objc
-- (void)STViewControllerWillDismiss:(STViewController *)viewController{
-    
-    NSLog(@"ST View Will Dismiss");
-}
-- (void)STViewControllerDidDismiss:(STViewController *)viewController{
-    
-    NSLog(@"ST View Did Dismiss");
+- (void)STViewControllerDidFinish:(STViewController *)viewController{
+    [viewController dismissViewControllerAnimated:YES completion:nil];
 }
 ```
 
