@@ -49,6 +49,12 @@
 /* Order page - discount amount */
 "Discount Amount" = "Jumlah Diskon";
 
+/* Order page - Free shipping */
+"Free shipping" = "Pengiriman gratis";
+
+/* Coupon is invalid */
+"Coupon code is invalid" = "Kode kupon tidak sah";
+
 /* Shipping information - Receiver's email */
 "Email" = "Email";
 

@@ -49,6 +49,12 @@
 /* Order page - discount amount */
 "Discount Amount" = "割引額";
 
+/* Order page - Free shipping */
+"Free shipping" = "送料無料";
+
+/* Coupon is invalid */
+"Coupon code is invalid" = "クーポンコードが無効です";
+
 /* Shipping information - Receiver's email */
 "Email" = "メールアドレス";
 

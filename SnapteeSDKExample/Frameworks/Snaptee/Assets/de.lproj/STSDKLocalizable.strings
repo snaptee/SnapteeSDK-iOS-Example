@@ -49,6 +49,12 @@
 /* Order page - discount amount */
 "Discount Amount" = "Preisnachlass";
 
+/* Order page - Free shipping */
+"Free shipping" = "Kostenloser Versand";
+
+/* Coupon is invalid */
+"Coupon code is invalid" = "Ungültiger Gutscheincode";
+
 /* Shipping information - Receiver's email */
 "Email" = "E-Mail";
 

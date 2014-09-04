@@ -49,6 +49,12 @@
 /* Order page - discount amount */
 "Discount Amount" = "折扣金額";
 
+/* Order page - Free shipping */
+"Free shipping" = "免運費";
+
+/* Coupon is invalid */
+"Coupon code is invalid" = "無效的優惠券";
+
 /* Shipping information - Receiver's email */
 "Email" = "電郵";
 
@@ -131,7 +137,7 @@
 "Style" = "款式";
 
 /* Order page - check out with Tenpay */
-"Tenpay" = "財付通";
+"Tenpay" = "支付寶 / 財付通";
 
 /* Title for action sheet after purchasing
    Title for thank you button after purchasing */

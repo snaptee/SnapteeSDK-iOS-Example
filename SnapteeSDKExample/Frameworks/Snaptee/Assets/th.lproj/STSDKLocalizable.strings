@@ -49,6 +49,12 @@
 /* Order page - discount amount */
 "Discount Amount" = "ส่วนลด";
 
+/* Order page - Free shipping */
+"Free shipping" = "จัดส่งฟรี";
+
+/* Coupon is invalid */
+"Coupon code is invalid" = "รหัสคูปองไม่ถูกต้อง";
+
 /* Shipping information - Receiver's email */
 "Email" = "อีเมล";
 
