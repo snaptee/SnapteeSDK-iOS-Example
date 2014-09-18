@@ -49,12 +49,6 @@
 /* Order page - discount amount */
 "Discount Amount" = "할인 금액";
 
-/* Order page - Free shipping */
-"Free shipping" = "무료 배송";
-
-/* Coupon is invalid */
-"Coupon code is invalid" = "사용 불가능한 쿠폰 코드입니다.";
-
 /* Shipping information - Receiver's email */
 "Email" = "이메일";
 

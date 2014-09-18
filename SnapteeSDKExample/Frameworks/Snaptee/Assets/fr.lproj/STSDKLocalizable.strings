@@ -49,12 +49,6 @@
 /* Order page - discount amount */
 "Discount Amount" = "Montant de la remise";
 
-/* Order page - Free shipping */
-"Free shipping" = "Livraison gratuite";
-
-/* Coupon is invalid */
-"Coupon code is invalid" = "Coupon non valide";
-
 /* Shipping information - Receiver's email */
 "Email" = "Courriel";
 
