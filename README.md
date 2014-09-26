@@ -3,6 +3,8 @@ SnapteeSDKExample
 
 iOS Snaptee SDK example project
 
+iPhone version
+
 1. Design T-shirt with the image from your app
     
     ![](screenshots/screen1.png)
@@ -18,6 +20,16 @@ iOS Snaptee SDK example project
 4. User can go back to your app after designing or purchasing T-shirt in Snaptee
     
     ![](screenshots/screen4.png)
+
+iPad version
+
+    ![](screenshots/ipad_01.png)
+
+    ![](screenshots/ipad_02.png)
+
+    ![](screenshots/ipad_03.png)
+    
+    ![](screenshots/ipad_04.png)
 
 
 To install:
