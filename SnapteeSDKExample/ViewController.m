@@ -44,7 +44,7 @@
     caption: Optional. Description of the image. Typically entered by users
     */
     
-    STViewController * stViewController = [[STViewController alloc] initWithAffiliateID:@"snaptee-sdk-example"
+    STViewController * stViewController = [[STViewController alloc] initWithAffiliateID:@"sdk-demo"
                                                                                 appName:@"Snaptee SDK Example"
                                                                                   image:[UIImage imageNamed:@"sample2.jpg"]
                                                                                fileType:STImageFileTypeJPG
