@@ -130,8 +130,8 @@
 /* Order page - title for select style */
 "Style" = "스타일";
 
-/* Order page - check out with Tenpay */
-"Tenpay" = "Tenpay";
+/* Order page - check out with Alipay */
+"Alipay" = "Alipay";
 
 /* Title for action sheet after purchasing
    Title for thank you button after purchasing */
@@ -161,3 +161,5 @@
 /* Shipping information - Placeholder for zip code */
 "Zip Code (optional)" = "우편번호 (필수 아님)";
 
+/* Order page - Out of stock */
+"Out of Stock" = "재고 없음";
