@@ -23,12 +23,16 @@ iPhone version
 
 iPad version
 
+1. Design T-shirt with the image from your app
     ![](screenshots/ipad_01.png)
     
+2. Different color and clothing are available to choose
     ![](screenshots/ipad_02.png)
     
+3. Order the T-shirt directly in the app
     ![](screenshots/ipad_03.png)
     
+4 Support Credit Card, Paypal and Alipay (Chinese users)
     ![](screenshots/ipad_04.png)
 
 
