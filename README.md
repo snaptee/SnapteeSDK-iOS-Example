@@ -46,12 +46,13 @@ https://github.com/AFNetworking/AFNetworking
     - image file type: JPG (STImageFileTypeJPG) or PNG (STImageFileTypePNG)
     - caption: Optional. Description of the image. Typically entered by users
 ```objc
-STViewController * stViewController = [[STViewController alloc] initWithAffiliateID:@"my-camera-id"
-                                                                           appName:@"My Camera"
-                                                                              image:[UIImage imageNamed:@"sample.png"]
-                                                                          fileType:STImageFileTypePNG
-                                                                            caption:@"Testing Caption!"];
+STViewController * stViewController = [[STViewController alloc] initWithAffiliateID:@"snaptee-sdk-example"
+                                                                            appName:@"Snaptee SDK Example"
+                                                                              image:[UIImage  imageNamed:@"sample2.jpg"]
+                                                                           fileType:STImageFileTypeJPG
+                                                                            caption:@"Goal!"];
 [stViewController setST_delegate:self];
+[stViewController setModalPresentationStyle:UIModalPresentationFormSheet]; // For iPad or iPhone 6+
 [self presentViewController:stViewController animated:YES completion:nil];
 ```
 - Include the following delegate function to dismiss
