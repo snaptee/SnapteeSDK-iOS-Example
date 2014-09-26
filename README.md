@@ -30,10 +30,7 @@ To install:
 2) Add AFNetworking framework (version 2.4.1)
 https://github.com/AFNetworking/AFNetworking
 
-3) Add Stripe framework (version 1.1.2)
-https://github.com/stripe/stripe-ios
-
-4) In your app, add the following code to present Snaptee
+3) In your app, add the following code to present Snaptee
 
 - Import Snaptee View Controller in your header (.h) and set STViewControllerDelegate if needed
 ```objc
