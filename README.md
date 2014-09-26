@@ -24,7 +24,7 @@ iPhone version
 iPad version
 
     ![](screenshots/ipad_01.png)
-
+    
     ![](screenshots/ipad_02.png)
 
     ![](screenshots/ipad_03.png)
