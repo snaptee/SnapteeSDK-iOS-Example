@@ -307,6 +307,8 @@
 		B4D6B40B19D55CDF00C67F34 /* button-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D6B2FC19D55CDF00C67F34 /* button-info@2x.png */; };
 		B4D6B40C19D55CDF00C67F34 /* card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D6B2FD19D55CDF00C67F34 /* card@2x.png */; };
 		B4D6B40D19D55CDF00C67F34 /* libSnapteeSDKLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D6B30419D55CDF00C67F34 /* libSnapteeSDKLibrary.a */; };
+		B4DC9EF019DA7DB7004BDABD /* sample5.png in Resources */ = {isa = PBXBuildFile; fileRef = B4DC9EEE19DA7DB7004BDABD /* sample5.png */; };
+		B4DC9EF119DA7DB7004BDABD /* sample6.png in Resources */ = {isa = PBXBuildFile; fileRef = B4DC9EEF19DA7DB7004BDABD /* sample6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -653,6 +655,8 @@
 		B4D6B30019D55CDF00C67F34 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/STSDKLocalizable.strings"; sourceTree = "<group>"; };
 		B4D6B30319D55CDF00C67F34 /* STViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
 		B4D6B30419D55CDF00C67F34 /* libSnapteeSDKLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSnapteeSDKLibrary.a; sourceTree = "<group>"; };
+		B4DC9EEE19DA7DB7004BDABD /* sample5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample5.png; sourceTree = "<group>"; };
+		B4DC9EEF19DA7DB7004BDABD /* sample6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -724,6 +728,8 @@
 				B4022643191A400F00EB9080 /* sample.png */,
 				B4CA30111973C31000BAC55A /* affiliate@2x.png */,
 				B4CA30121973C31000BAC55A /* sample2.jpg */,
+				B4DC9EEE19DA7DB7004BDABD /* sample5.png */,
+				B4DC9EEF19DA7DB7004BDABD /* sample6.png */,
 				B4022363191A3B2200EB9080 /* Images.xcassets */,
 				B4022352191A3B2200EB9080 /* Supporting Files */,
 			);
@@ -1352,6 +1358,7 @@
 				B4D6B32B19D55CDF00C67F34 /* BN.png in Resources */,
 				B4D6B30919D55CDF00C67F34 /* reset-pressed@2x.png in Resources */,
 				B4D6B36D19D55CDF00C67F34 /* HK.png in Resources */,
+				B4DC9EF119DA7DB7004BDABD /* sample6.png in Resources */,
 				B4D6B3F419D55CDF00C67F34 /* UG.png in Resources */,
 				B4D6B3DA19D55CDF00C67F34 /* SM.png in Resources */,
 				B4D6B3E419D55CDF00C67F34 /* TD.png in Resources */,
@@ -1369,6 +1376,7 @@
 				B4D6B3AD19D55CDF00C67F34 /* MZ.png in Resources */,
 				B4D6B31019D55CDF00C67F34 /* AD.png in Resources */,
 				B4D6B39419D55CDF00C67F34 /* LU.png in Resources */,
+				B4DC9EF019DA7DB7004BDABD /* sample5.png in Resources */,
 				B4D6B35719D55CDF00C67F34 /* FO.png in Resources */,
 				B4D6B39819D55CDF00C67F34 /* MC.png in Resources */,
 				B4D6B40719D55CDF00C67F34 /* ZM.png in Resources */,

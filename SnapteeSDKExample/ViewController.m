@@ -46,8 +46,8 @@
     
     STViewController * stViewController = [[STViewController alloc] initWithAffiliateID:@"sdk-demo"
                                                                                 appName:@"Snaptee SDK Example"
-                                                                                  image:[UIImage imageNamed:@"sample2.jpg"]
-                                                                               fileType:STImageFileTypeJPG
+                                                                                  image:[UIImage imageNamed:@"sample5.png"]
+                                                                               fileType:STImageFileTypePNG
                                                                                 caption:@"Goal!"];
     [stViewController setST_delegate:self];
     [stViewController setModalPresentationStyle:UIModalPresentationFormSheet]; // For iPad or iPhone 6+
