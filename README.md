@@ -1,5 +1,5 @@
 # SnapteeSDKExample
-# =================
+
 
 iOS Snaptee SDK example project
 
