@@ -7,18 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "STAffiliateManager.h"
+
+@class STOrderItem;
 
 @protocol STViewControllerDelegate;
 
+extern NSString * const STNotificationDidFinish;
+extern NSString * const STNotificationDidSaveDesign;
+extern NSString * const STNotificationWillCheckout;
+extern NSString * const STNotificationDidCheckout;
+
 @interface STViewController : UINavigationController
 
-/*
- affiliateID: Assigned by Snaptee
- app_name: Optional. Will be shown in the action sheet when leaving Snaptee e.g. "Back to app_name"
- image: UIImage passing to Snaptee
- fileType: JPG or PNG
- caption: Optional. Description of the image. Typically entered by users
- */
 @property(nonatomic, weak) id<STViewControllerDelegate> ST_delegate;
 
 typedef enum {
@@ -26,16 +27,18 @@ typedef enum {
     STImageFileTypeJPG=1
 } STImageFileType;
 
-- (id)initWithAffiliateID:(NSString*) affiliateID
-                  appName:(NSString*) appName
-                    image:(UIImage*) image
-                  caption:(NSString*) caption;
+/*
+ image: UIImage passing to Snaptee
+ fileType: JPG or PNG
+ caption: Optional. Description of the image. Typically entered by users
+ */
 
-- (id)initWithAffiliateID:(NSString*) affiliateID
-                  appName:(NSString*) appName
-                    image:(UIImage*) image
-                 fileType:(STImageFileType) fileType
-                  caption:(NSString*) caption;
+- (id)initWithImage:(UIImage*)image
+           fileType:(STImageFileType) fileType;
+
+- (id)initWithImage:(UIImage*)image
+           fileType:(STImageFileType) fileType
+            caption:(NSString*) caption;
 
 @end
 
@@ -43,4 +46,9 @@ typedef enum {
 @protocol STViewControllerDelegate <NSObject>
 @required
 - (void)STViewControllerDidFinish:(STViewController *)viewController;
+@optional
+- (void)STViewControllerDidSaveDesign:(STViewController *)viewController;
+- (void)STViewControllerWillCheckout:(STViewController *)viewController;
+- (void)STViewControllerDidCheckout:(STViewController *)viewController
+                               item:(STOrderItem*)orderItem;
 @end

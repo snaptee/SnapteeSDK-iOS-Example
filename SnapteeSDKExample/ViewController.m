@@ -21,36 +21,46 @@
 {
     [super viewDidLoad];
     
-    UIImageView* backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"affiliate.png"]];
+    // UI elements
+    UIImageView * backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"affiliate.png"]];
+    
     [backgroundView setFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     [backgroundView setCenter:self.view.center];
-    [backgroundView setContentMode:UIViewContentModeScaleAspectFit];
     
-    UIButton * button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, backgroundView.frame.size.width, backgroundView.frame.size.height)];
+    UIButton * button = [[UIButton alloc] initWithFrame:CGRectMake(0, backgroundView.frame.size.height/2, backgroundView.frame.size.width, backgroundView.frame.size.height/2)];
+    [button setBackgroundColor:[UIColor clearColor]];
     [button addTarget:self action:@selector(designWithSnaptee:) forControlEvents:UIControlEventTouchUpInside];
-
+    
     [self.view addSubview:backgroundView];
     [self.view addSubview:button];
     
 }
 
+#pragma mark button action
 - (IBAction) designWithSnaptee:(id)sender{
     
-    // Initialize Snaptee View Controller
-    /*
-    affiliateID: Assigned by Snaptee
-    app_name: Optional. Will be shown in the action sheet when leaving Snaptee e.g. "Back to app_name"
-    image: UIImage passing to Snaptee
-    caption: Optional. Description of the image. Typically entered by users
-    */
+    // Initialize Snaptee
     
-    STViewController * stViewController = [[STViewController alloc] initWithAffiliateID:@"sdk-demo"
-                                                                                appName:@"Snaptee SDK Example"
-                                                                                  image:[UIImage imageNamed:@"sample5.png"]
-                                                                               fileType:STImageFileTypePNG
-                                                                                caption:@"Goal!"];
+    /*
+     affiliateID: Assigned by Snaptee
+     app_name: Optional. Will be shown in the action sheet when leaving Snaptee e.g. "Back to app_name"
+     language: force SDK to display in a specific language (STLanguageDefault means to use device's language setting)
+     */
+    
+    [[STAffiliateManager instance] setAffiliate_id:@"sdk-demo"];
+    [[STAffiliateManager instance] setApp_name:@"Snaptee SDK Example"]; // Optional
+    [[STAffiliateManager instance] setLanguage:STLanguageDefault]; // Optional
+    
+    /*
+     image: UIImage passing to Snaptee
+     file type: PNG or JPG
+     caption: Optional. Description of the image. Typically entered by users
+     */
+    STViewController * stViewController = [[STViewController alloc] initWithImage:[UIImage imageNamed:@"sample2.jpg"]
+                                                                         fileType:STImageFileTypeJPG
+                                                                          caption:@"Funny bear!"];
     [stViewController setST_delegate:self];
-    [stViewController setModalPresentationStyle:UIModalPresentationFormSheet]; // For iPad or iPhone 6+
+    [stViewController setModalPresentationStyle:UIModalPresentationFormSheet];
     
     [self presentViewController:stViewController animated:YES completion:nil];
     
@@ -59,7 +69,23 @@
 #pragma mark STViewController Delegate functions
 - (void)STViewControllerDidFinish:(STViewController *)viewController{
     [viewController dismissViewControllerAnimated:YES completion:nil];
+    NSLog(@"Snaptee: Finished! All orders in this session: %@", [STAffiliateManager instance].ordered_items);
 }
+
+#pragma mark STViewController Delegate functions (optional)
+- (void)STViewControllerDidSaveDesign:(STViewController *)viewController{
+    NSLog(@"Snaptee: Design saved!");
+}
+- (void)STViewControllerWillCheckout:(STViewController *)viewController{
+    NSLog(@"Snaptee: Ready to checkout!");
+}
+- (void)STViewControllerDidCheckout:(STViewController *)viewController
+                               item:(STOrderItem*)orderItem{
+    NSLog(@"Snaptee: Order completed, order ID = %@", orderItem.orderId);
+    NSLog(@"Snaptee: trackingURL = %@", orderItem.trackingURL);
+}
+
+ 
 
 
 @end
