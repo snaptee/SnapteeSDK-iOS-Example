@@ -19,7 +19,7 @@ iPhone version
 
 4 Support Credit Card, Paypal and Alipay (Chinese users)
     
-![](screenshots/iphone06.PNG)
+    ![](screenshots/iphone06.PNG)
 
 iPad version
 
