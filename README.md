@@ -132,6 +132,3 @@ http://snaptee.co/affiliate
 
 
 
-
-
-
