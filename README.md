@@ -7,33 +7,33 @@ iPhone version
 
 1. Design T-shirt with the image from your app
     
-    ![](screenshots/iphone01.PNG)
+![](screenshots/iphone01.PNG)
 
 2. Different color and clothing are available to choose
     
-    ![](screenshots/iphone02.PNG)
+![](screenshots/iphone02.PNG)
 
 3. Order the T-shirt directly in the app
     
-    ![](screenshots/iphone03.PNG)
+![](screenshots/iphone03.PNG)
 
 4 Support Credit Card, Paypal and Alipay (Chinese users)
     
-    ![](screenshots/iphone06.PNG)
+![](screenshots/iphone06.PNG)
 
 iPad version
 
 1. Design T-shirt with the image from your app
-    ![](screenshots/ipad02.png)
+![](screenshots/ipad02.png)
     
 2. Different color and clothing are available to choose
-    ![](screenshots/ipad03.png)
+![](screenshots/ipad03.png)
     
 3. Order the T-shirt directly in the app
-    ![](screenshots/ipad04.png)
+![](screenshots/ipad04.png)
     
 4 Support Credit Card, Paypal and Alipay (Chinese users)
-    ![](screenshots/ipad05.png)
+![](screenshots/ipad05.png)
 
 More screenshots
 
