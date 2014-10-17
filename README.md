@@ -128,6 +128,13 @@ https://github.com/AFNetworking/AFNetworking
 
 ```
 
+## Make a T-shirt button
+
+It is recommended to use this graphic or text "Make a T-shirt" to start the T-shirt design flow
+
+    ![](materials/Create-Tshirt@2x.png)
+
+
 
 ## To test:
 
