@@ -1,9 +1,9 @@
-SnapteeSDKExample
-=================
+# SnapteeSDKExample
+# =================
 
 iOS Snaptee SDK example project
 
-iPhone version
+## iPhone version
 
 1. Design T-shirt with the image from your app
     
@@ -21,7 +21,7 @@ iPhone version
     
     ![](screenshots/iphone06.PNG)
 
-iPad version
+## iPad version
 
 1. Design T-shirt with the image from your app
     ![](screenshots/ipad02.png)
@@ -35,12 +35,26 @@ iPad version
 4. Support Credit Card, Paypal and Alipay (Chinese users)
     ![](screenshots/ipad05.png)
 
-More screenshots
+
+## More screenshots
 
 https://github.com/snaptee/SnapteeSDK-iOS-Example/tree/master/screenshots
 
+## Localization
 
-To install:
+Snaptee SDK supports the following languages
+- English
+- Japanese
+- French
+- German
+- Korean
+- Thai
+- Indonesian
+- Simplified Chinese
+- Traditional chinese
+
+
+## To install:
 
 1) Add Snaptee SDK static library to your project
 - /Assets/
@@ -50,7 +64,7 @@ To install:
 2) Add AFNetworking framework (version 2.4.1)
 https://github.com/AFNetworking/AFNetworking
 
-3) Add "MessageUI.framework" in "Link Binary With Libraries" in "Build Phases"
+3) Add "MessageUI.framework" in "Link Binary With Libraries" in "Build Phases". This is needed for users to send email to Snaptee to ask questions about the products.
     ![](screenshots/xcode01.png)
 
 4) In your app, add the following code to present Snaptee
@@ -115,12 +129,12 @@ https://github.com/AFNetworking/AFNetworking
 ```
 
 
-To test:
+## To test:
 
 - check out with coupon code when using development ID
 - coupon code: st_sandbox
  
-Dashboard:
+## Dashboard:
 
 The following website is the dashboard of the program. You may find statistics inside there.
 (Username and password are assigned by Snaptee)
