@@ -21,7 +21,6 @@ iPhone version
     
     ![](screenshots/iphone06.PNG)
 
-
 iPad version
 
 1. Design T-shirt with the image from your app
@@ -64,11 +63,7 @@ https://github.com/AFNetworking/AFNetworking
 ```
     
 - Initialize Snaptee View Controller
-    - affiliateID: Assigned by Snaptee
-    - app_name: Optional. Will be shown in the action sheet when leaving Snaptee e.g. "Back to app_name"
-    - image: UIImage passing to Snaptee
-    - image file type: JPG (STImageFileTypeJPG) or PNG (STImageFileTypePNG)
-    - caption: Optional. Description of the image. Typically entered by users
+
 ```objc
 
     /*
