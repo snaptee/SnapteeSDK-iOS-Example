@@ -51,7 +51,7 @@ Snaptee SDK supports the following languages
 - Thai
 - Indonesian
 - Simplified Chinese
-- Traditional chinese
+- Traditional Chinese
 
 
 ## To install:
