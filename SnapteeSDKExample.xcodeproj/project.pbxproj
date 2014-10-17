@@ -291,6 +291,7 @@
 		B43A9B7419F11866009DDF30 /* card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B43A9A6019F11865009DDF30 /* card@2x.png */; };
 		B43A9B7519F11866009DDF30 /* overlay-image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B43A9A6119F11865009DDF30 /* overlay-image@2x.png */; };
 		B43A9B7619F11866009DDF30 /* libSnapteeSDKLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B43A9A6919F11866009DDF30 /* libSnapteeSDKLibrary.a */; };
+		B43A9B7819F11A4A009DDF30 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43A9B7719F11A4A009DDF30 /* MessageUI.framework */; };
 		B465AA6D19CACEF3000EB0A0 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B465A92319CACEF3000EB0A0 /* AFHTTPRequestOperation.m */; };
 		B465AA6E19CACEF3000EB0A0 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B465A92519CACEF3000EB0A0 /* AFHTTPRequestOperationManager.m */; };
 		B465AA6F19CACEF3000EB0A0 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B465A92719CACEF3000EB0A0 /* AFHTTPSessionManager.m */; };
@@ -625,6 +626,7 @@
 		B43A9A6719F11865009DDF30 /* STAffiliateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAffiliateManager.h; sourceTree = "<group>"; };
 		B43A9A6819F11866009DDF30 /* STViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
 		B43A9A6919F11866009DDF30 /* libSnapteeSDKLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSnapteeSDKLibrary.a; sourceTree = "<group>"; };
+		B43A9B7719F11A4A009DDF30 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		B465A92219CACEF3000EB0A0 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		B465A92319CACEF3000EB0A0 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		B465A92419CACEF3000EB0A0 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -673,6 +675,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43A9B7819F11A4A009DDF30 /* MessageUI.framework in Frameworks */,
 				B402234E191A3B2200EB9080 /* CoreGraphics.framework in Frameworks */,
 				B4022350191A3B2200EB9080 /* UIKit.framework in Frameworks */,
 				B402234C191A3B2200EB9080 /* Foundation.framework in Frameworks */,
@@ -716,6 +719,7 @@
 		B402234A191A3B2200EB9080 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B43A9B7719F11A4A009DDF30 /* MessageUI.framework */,
 				B465A92019CACEF3000EB0A0 /* AFNetworking */,
 				B43A994A19F11865009DDF30 /* Snaptee */,
 				B402234B191A3B2200EB9080 /* Foundation.framework */,
