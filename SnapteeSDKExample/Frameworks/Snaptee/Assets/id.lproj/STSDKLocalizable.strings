@@ -49,6 +49,12 @@
 /* Order page - discount amount */
 "Discount Amount" = "Jumlah Diskon";
 
+/* Order page - Free shipping */
+"Free shipping" = "Pengiriman gratis";
+
+/* Coupon is invalid */
+"Coupon code is invalid" = "Kode kupon tidak sah";
+
 /* Shipping information - Receiver's email */
 "Email" = "Email";
 
@@ -163,3 +169,21 @@
 
 /* Order page - Out of stock */
 "Out of Stock" = "HABIS";
+
+"Make a T-shirt" = "Buat T-shirt";
+
+"Make a Snaptee" = "Buat Snaptee";
+
+/* Frequent asked questions */
+"FAQ" = "TJU";
+
+/* Send email to contact Snaptee */
+"Contact Snaptee" = "Hubungi Snaptee";
+
+/* Snaptee introduction headline */
+"Make a T-shirt?" = "Buat T-shirt?";
+
+/* Snaptee introduction */
+"Snaptee Introduction" = "Tak ada hal yang lebih menyenangkan dibanding dengan memegang sesuatu yang kamu buat sendiri. Snaptee mencetak desain cantikmu pada bahan katun 100% dan mengirimkannya langsung padamu dalam bentuk T-shirt.";
+
+"Tenpay" = "Tenpay";

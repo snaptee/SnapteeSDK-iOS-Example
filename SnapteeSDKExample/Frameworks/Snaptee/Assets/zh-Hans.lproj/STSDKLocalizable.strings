@@ -49,6 +49,12 @@
 /* Order page - discount amount */
 "Discount Amount" = "折扣";
 
+/* Order page - Free shipping */
+"Free shipping" = "免费配送";
+
+/* Coupon is invalid */
+"Coupon code is invalid" = "无效的优惠码";
+
 /* Shipping information - Receiver's email */
 "Email" = "电子邮件地址";
 
@@ -163,3 +169,21 @@
 
 /* Order page - Out of stock */
 "Out of Stock" = "缺货中";
+
+"Make a T-shirt" = "制作T恤";
+
+"Make a Snaptee" = "制作Snaptee";
+
+/* Frequent asked questions */
+"FAQ" = "常见问题";
+
+/* Send email to contact Snaptee */
+"Contact Snaptee" = "联系Snaptee";
+
+/* Snaptee introduction headline */
+"Make a T-shirt?" = "制作T恤？";
+
+/* Snaptee introduction */
+"Snaptee Introduction" = "有什么能比穿自己亲手制作的衣服更带劲？Snaptee用100%纯棉布料呈现您的美丽设计，并将独一无二的T恤直接配送给您。";
+
+"Tenpay" = "支付宝 / 财付通";

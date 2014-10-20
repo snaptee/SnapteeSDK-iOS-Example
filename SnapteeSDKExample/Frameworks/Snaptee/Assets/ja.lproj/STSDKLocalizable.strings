@@ -49,6 +49,12 @@
 /* Order page - discount amount */
 "Discount Amount" = "割引額";
 
+/* Order page - Free shipping */
+"Free shipping" = "送料無料";
+
+/* Coupon is invalid */
+"Coupon code is invalid" = "クーポンコードが無効です";
+
 /* Shipping information - Receiver's email */
 "Email" = "メールアドレス";
 
@@ -163,3 +169,21 @@
 
 /* Order page - Out of stock */
 "Out of Stock" = "在庫切れ";
+
+"Make a T-shirt" = "T シャツを作成";
+
+"Make a Snaptee" = "Snaptee を作成";
+
+/* Frequent asked questions */
+"FAQ" = "よくある質問";
+
+/* Send email to contact Snaptee */
+"Contact Snaptee" = "お問い合わせ";
+
+/* Snaptee introduction headline */
+"Make a T-shirt?" = "T シャツを作ってみませんか？";
+
+/* Snaptee introduction */
+"Snaptee Introduction" = "自分が作ったものを手にすることほど素晴らしいものはありません。Snaptee はあなたによる美しいデザインをコットン100% の素材にプリントして、世界でひとつだけのT シャツをお届けします。";
+
+"Tenpay" = "Tenpay";

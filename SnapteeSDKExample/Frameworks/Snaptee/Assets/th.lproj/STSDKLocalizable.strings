@@ -49,6 +49,12 @@
 /* Order page - discount amount */
 "Discount Amount" = "ส่วนลด";
 
+/* Order page - Free shipping */
+"Free shipping" = "จัดส่งฟรี";
+
+/* Coupon is invalid */
+"Coupon code is invalid" = "รหัสคูปองไม่ถูกต้อง";
+
 /* Shipping information - Receiver's email */
 "Email" = "อีเมล";
 
@@ -163,3 +169,21 @@
 
 /* Order page - Out of stock */
 "Out of Stock" = "ไม่มีรายการ";
+
+"Make a T-shirt" = "ทำเสื้อยืด";
+
+"Make a Snaptee" = "ทำเสื้อยืด Snaptee";
+
+/* Frequent asked questions */
+"FAQ" = "FAQ";
+
+/* Send email to contact Snaptee */
+"Contact Snaptee" = "ติดต่อ Snaptee";
+
+/* Snaptee introduction headline */
+"Make a T-shirt?" = "สร้างเสื้อยืดของคุณเอง?";
+
+/* Snaptee introduction */
+"Snaptee Introduction" = "ไม่อะไรดีไปกว่าการได้เป็นเจ้าของสิ่งที่เราออกแบบเอง Snaptee จะถ่ายทอดลายออกแบบที่สวยงามของคุณลงบนผ้าฝ้าย 100% และจัดส่งเสื้อยืดนั้นไปถึงมือคุณ";
+
+"Tenpay" = "Tenpay";

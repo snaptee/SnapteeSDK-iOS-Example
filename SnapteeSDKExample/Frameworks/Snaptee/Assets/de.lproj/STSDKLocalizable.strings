@@ -49,6 +49,12 @@
 /* Order page - discount amount */
 "Discount Amount" = "Preisnachlass";
 
+/* Order page - Free shipping */
+"Free shipping" = "Kostenloser Versand";
+
+/* Coupon is invalid */
+"Coupon code is invalid" = "Ungültiger Gutscheincode";
+
 /* Shipping information - Receiver's email */
 "Email" = "E-Mail";
 
@@ -163,3 +169,21 @@
 
 /* Order page - Out of stock */
 "Out of Stock" = "NICHT AUF LAGER";
+
+"Make a T-shirt" = "Kreiere ein T-Shirt";
+
+"Make a Snaptee" = "Kreiere ein Snaptee-T-Shirt";
+
+/* Frequent asked questions */
+"FAQ" = "FAQ";
+
+/* Send email to contact Snaptee */
+"Contact Snaptee" = "Snaptee kontaktieren";
+
+/* Snaptee introduction headline */
+"Make a T-shirt?" = "T-Shirt gestalten?";
+
+/* Snaptee introduction */
+"Snaptee Introduction" = "Nichts ist schöner als eine Eigenkreation in den Händen zu halten. Snaptee druckt dein schönes Design auf 100 % Baumwolle und schickt dein einzigartiges T-Shirt direkt zu dir nach Hause.";
+
+"Tenpay" = "Tenpay";

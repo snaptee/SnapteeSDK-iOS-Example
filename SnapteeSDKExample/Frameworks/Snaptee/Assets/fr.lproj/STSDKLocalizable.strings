@@ -49,6 +49,12 @@
 /* Order page - discount amount */
 "Discount Amount" = "Montant de la remise";
 
+/* Order page - Free shipping */
+"Free shipping" = "Livraison gratuite";
+
+/* Coupon is invalid */
+"Coupon code is invalid" = "Coupon non valide";
+
 /* Shipping information - Receiver's email */
 "Email" = "Courriel";
 
@@ -163,3 +169,21 @@
 
 /* Order page - Out of stock */
 "Out of Stock" = "STOCK ÉPUISÉ";
+
+"Make a T-shirt" = "Créer un tee shirt";
+
+"Make a Snaptee" = "Créer un Snaptee";
+
+/* Frequent asked questions */
+"FAQ" = "FAQ";
+
+/* Send email to contact Snaptee */
+"Contact Snaptee" = "Contacter Snaptee";
+
+/* Snaptee introduction headline */
+"Make a T-shirt?" = "Créer un tee shirt ?";
+
+/* Snaptee introduction */
+"Snaptee Introduction" = "Rien ne vaut le fait de tenir dans la main quelque chose que vous avez créé. Snaptee imprime votre design magnifique sur du coton 100% et vous envoie directement un tee shirt unique.";
+
+"Tenpay" = "Tenpay";

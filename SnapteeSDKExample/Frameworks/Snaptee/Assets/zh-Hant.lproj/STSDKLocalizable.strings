@@ -49,6 +49,12 @@
 /* Order page - discount amount */
 "Discount Amount" = "折扣金額";
 
+/* Order page - Free shipping */
+"Free shipping" = "免運費";
+
+/* Coupon is invalid */
+"Coupon code is invalid" = "無效的優惠券";
+
 /* Shipping information - Receiver's email */
 "Email" = "電郵";
 
@@ -163,3 +169,21 @@
 
 /* Order page - Out of stock */
 "Out of Stock" = "缺貨中";
+
+"Make a T-shirt" = "製作T恤衫";
+
+"Make a Snaptee" = "製作Snaptee";
+
+/* Frequent asked questions */
+"FAQ" = "常見問題";
+
+/* Send email to contact Snaptee */
+"Contact Snaptee" = "聯絡Snaptee";
+
+/* Snaptee introduction headline */
+"Make a T-shirt?" = "要創作T恤嗎？";
+
+/* Snaptee introduction */
+"Snaptee Introduction" = "沒有什麼能比得上擁有自己原創的東西。Snaptee將你精美的設計印於100％純棉的T恤上，並把獨一無二的創作直接送到你手中。";
+
+"Tenpay" = "支付寶 / 財付通";
