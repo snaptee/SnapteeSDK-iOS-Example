@@ -1,42 +1,60 @@
-SnapteeSDKExample
-=================
+# SnapteeSDKExample
+
 
 iOS Snaptee SDK example project
 
-iPhone version
+## iPhone version
 
 1. Design T-shirt with the image from your app
     
-    ![](screenshots/screen1.png)
+    ![](screenshots/iphone01.PNG)
 
 2. Different color and clothing are available to choose
     
-    ![](screenshots/screen2.png)
+    ![](screenshots/iphone02.PNG)
 
 3. Order the T-shirt directly in the app
     
-    ![](screenshots/screen3.png)
+    ![](screenshots/iphone03.PNG)
 
-4. User can go back to your app after designing or purchasing T-shirt in Snaptee
+4. Support Credit Card, Paypal and Alipay (Chinese users)
     
-    ![](screenshots/screen4.png)
+    ![](screenshots/iphone06.PNG)
 
-iPad version
+## iPad version
 
 1. Design T-shirt with the image from your app
-    ![](screenshots/ipad_01.png)
+    ![](screenshots/ipad02.png)
     
 2. Different color and clothing are available to choose
-    ![](screenshots/ipad_02.png)
+    ![](screenshots/ipad03.png)
     
 3. Order the T-shirt directly in the app
-    ![](screenshots/ipad_03.png)
+    ![](screenshots/ipad04.png)
     
-4 Support Credit Card, Paypal and Alipay (Chinese users)
-    ![](screenshots/ipad_04.png)
+4. Support Credit Card, Paypal and Alipay (Chinese users)
+    ![](screenshots/ipad05.png)
 
 
-To install:
+## More screenshots
+
+https://github.com/snaptee/SnapteeSDK-iOS-Example/tree/master/screenshots
+
+## Localization
+
+Snaptee SDK supports the following languages
+- English
+- Japanese
+- French
+- German
+- Korean
+- Thai
+- Indonesian
+- Simplified Chinese
+- Traditional Chinese
+
+
+## To install:
 
 1) Add Snaptee SDK static library to your project
 - /Assets/
@@ -46,7 +64,10 @@ To install:
 2) Add AFNetworking framework (version 2.4.1)
 https://github.com/AFNetworking/AFNetworking
 
-3) In your app, add the following code to present Snaptee
+3) Add "MessageUI.framework" in "Link Binary With Libraries" in "Build Phases". This is needed for users to send email to Snaptee to ask questions about the products.
+    ![](screenshots/xcode01.png)
+
+4) In your app, add the following code to present Snaptee
 
 - Import Snaptee View Controller in your header (.h) and set STViewControllerDelegate if needed
 ```objc
@@ -56,20 +77,32 @@ https://github.com/AFNetworking/AFNetworking
 ```
     
 - Initialize Snaptee View Controller
-    - affiliateID: Assigned by Snaptee
-    - app_name: Optional. Will be shown in the action sheet when leaving Snaptee e.g. "Back to app_name"
-    - image: UIImage passing to Snaptee
-    - image file type: JPG (STImageFileTypeJPG) or PNG (STImageFileTypePNG)
-    - caption: Optional. Description of the image. Typically entered by users
+
 ```objc
-STViewController * stViewController = [[STViewController alloc] initWithAffiliateID:@"sdk-demo"
-                                                                            appName:@"Snaptee SDK Example"
-                                                                              image:[UIImage  imageNamed:@"sample2.jpg"]
-                                                                           fileType:STImageFileTypeJPG
-                                                                            caption:@"Goal!"];
-[stViewController setST_delegate:self];
-[stViewController setModalPresentationStyle:UIModalPresentationFormSheet]; // For iPad or iPhone 6+
-[self presentViewController:stViewController animated:YES completion:nil];
+
+    /*
+     affiliateID: Assigned by Snaptee
+     app_name: Optional. Will be shown in the action sheet when leaving Snaptee e.g. "Back to app_name"
+     language: force SDK to display in a specific language (STLanguageDefault means to use device's language setting)
+     */
+    
+    [[STAffiliateManager instance] setAffiliate_id:@"sdk-demo"];
+    [[STAffiliateManager instance] setApp_name:@"Snaptee SDK Example"]; // Optional
+    [[STAffiliateManager instance] setLanguage:STLanguageDefault]; // Optional
+    
+    /*
+     image: UIImage passing to Snaptee
+     file type: PNG or JPG
+     caption: Optional. Description of the image. Typically entered by users
+     */
+    STViewController * stViewController = [[STViewController alloc] initWithImage:[UIImage imageNamed:@"sample2.jpg"]
+                                                                         fileType:STImageFileTypeJPG
+                                                                          caption:@"Funny bear!"];
+    [stViewController setST_delegate:self];
+    [stViewController setModalPresentationStyle:UIModalPresentationFormSheet];
+    
+    [self presentViewController:stViewController animated:YES completion:nil];
+    
 ```
 - Include the following delegate function to dismiss
 
@@ -79,20 +112,39 @@ STViewController * stViewController = [[STViewController alloc] initWithAffiliat
 }
 ```
 
-To test:
+- Optional delegate functions for your app to track the status
+```objc
+- (void)STViewControllerDidSaveDesign:(STViewController *)viewController{
+    NSLog(@"Snaptee: Design saved!");
+}
+- (void)STViewControllerWillCheckout:(STViewController *)viewController{
+    NSLog(@"Snaptee: Ready to checkout!");
+}
+- (void)STViewControllerDidCheckout:(STViewController *)viewController
+                               item:(STOrderItem*)orderItem{
+    NSLog(@"Snaptee: Order completed, order ID = %@", orderItem.orderId);
+    NSLog(@"Snaptee: trackingURL = %@", orderItem.trackingURL);
+}
+
+```
+
+## Make a T-shirt button
+
+It is recommended to use this graphic or text "Make a T-shirt" to start the T-shirt design flow
+
+![](materials/Create-Tshirt@2x.png)   
+
+## To test:
 
 - check out with coupon code when using development ID
 - coupon code: st_sandbox
  
-Dashboard:
+## Dashboard:
 
 The following website is the dashboard of the program. You may find statistics inside there.
 (Username and password are assigned by Snaptee)
 
 http://snaptee.co/affiliate
-
-
-
 
 
 
