@@ -58,7 +58,7 @@ Snaptee SDK supports the following languages
 
 Please download the latest version from https://github.com/snaptee/SnapteeSDK-iOS-Example/releases
 
-**If you are upgrading the library from old version, make sure that you removed the older library and add all new files to Xcode**
+**If you are upgrading from older version, make sure that you removed the older library and add all new files to Xcode**
 
 1) Add Snaptee SDK static library to your project 
 - /Assets/
