@@ -47,9 +47,9 @@
      language: force SDK to display in a specific language (STLanguageDefault means to use device's language setting)
      */
     
-    [[STAffiliateManager instance] setAffiliate_id:@"sdk-demo"];
-    [[STAffiliateManager instance] setApp_name:@"Snaptee SDK Example"]; // Optional
-    [[STAffiliateManager instance] setLanguage:STLanguageDefault]; // Optional
+    [STAffiliateManager instance].affiliateId = @"sdk-demo";
+    [STAffiliateManager instance].appName = @"Snaptee SDK Example"; // Optional
+    [STAffiliateManager instance].language = STLanguageDefault; // Optional
     
     /*
      image: UIImage passing to Snaptee
@@ -69,7 +69,7 @@
 #pragma mark STViewController Delegate functions
 - (void)STViewControllerDidFinish:(STViewController *)viewController{
     [viewController dismissViewControllerAnimated:YES completion:nil];
-    NSLog(@"Snaptee: Finished! All orders in this session: %@", [STAffiliateManager instance].ordered_items);
+    NSLog(@"Snaptee: Finished! All orders in this session: %@", [STAffiliateManager instance].orderedItems);
 }
 
 #pragma mark STViewController Delegate functions (optional)

@@ -32,16 +32,40 @@ typedef enum {
     STLanguageSimplifiedChinese=9
 } STLanguage;
 
-// affiliateID: Assigned by Snaptee
-@property (nonatomic, retain) NSString * affiliate_id;
 
-// app_name: Optional. Will be shown in the action sheet when leaving Snaptee e.g. "Back to app_name"
-@property (nonatomic, retain) NSString * app_name;
+/**
+ affiliateID: Assigned by Snaptee
+ */
+@property (nonatomic, retain) NSString * affiliateId;
+/**
+ @deprecated Use `affiliateId` instead.
+ */
+@property (nonatomic, assign) NSString * affiliate_id DEPRECATED_ATTRIBUTE;
 
-// language: Optional. Set if want to force the language.
+
+/**
+ appName: Optional. Will be shown in the action sheet when leaving Snaptee e.g. "Back to appName"
+*/
+@property (nonatomic, retain) NSString * appName;
+/**
+ @deprecated Use `appName` instead.
+ */
+@property (nonatomic, assign) NSString * app_name DEPRECATED_ATTRIBUTE;
+
+/**
+ language: Optional. Set if want to force the language.
+ */
 @property (nonatomic) STLanguage language;
 
-// ordered_items: Ordered items in this session. Array of STOrderItem object.
-@property (nonatomic, retain, readonly) NSArray * ordered_items;
+
+/**
+ orderedItems: Ordered items in this session. Array of STOrderItem object.
+*/
+@property (nonatomic, retain, readonly) NSArray * orderedItems;
+/**
+ @deprecated Use `orderedItems` instead.
+ */
+@property (nonatomic, assign, readonly) NSArray * ordered_items DEPRECATED_ATTRIBUTE;
+
 
 @end
