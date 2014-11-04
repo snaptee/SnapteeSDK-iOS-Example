@@ -62,11 +62,14 @@ Snaptee SDK supports the following languages
 #### Working enviornment
 - Latest Xcode
 - Deployment Target 6.0 or above
+- If working with "Base SDK" before iOS 8.0, libsqlite3.dylib might be required. Please add it in "Link Binary With Libraries" in "Build Phases"
+
 
 #### Snaptee SDK example project
 Please download the latest version from https://github.com/snaptee/SnapteeSDK-iOS-Example/releases
 
 **If you are upgrading from older version, make sure that you removed the older library and add all new files to Xcode**
+
 
 1) Add Snaptee SDK static library to your project (located in SDK example project, /Frameworks/Snpatee"
 - /Assets/
@@ -79,7 +82,7 @@ https://github.com/AFNetworking/AFNetworking
 3) Add "MessageUI.framework" in "Link Binary With Libraries" in "Build Phases". This is needed for users to send email to Snaptee to ask questions about the products.
     ![](screenshots/xcode01.png)
 
-4) If working with Xcode 5 or before, libsqlite3.dylib will be required. Please add it in "Link Binary With Libraries" in "Build Phases"
+4) If working with "Base SDK" before iOS 8.0, libsqlite3.dylib might be required. Please add it in "Link Binary With Libraries" in "Build Phases"
 
 5) In your app, add the following code to present Snaptee
 
