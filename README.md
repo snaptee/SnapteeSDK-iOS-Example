@@ -79,7 +79,7 @@ Please download the latest version from https://github.com/snaptee/SnapteeSDK-iO
 2) Add AFNetworking framework (version 2.4.1)
 https://github.com/AFNetworking/AFNetworking
 
-3) Add "MessageUI.framework" in "Link Binary With Libraries" in "Build Phases". This is needed for users to send email to Snaptee to ask questions about the products.
+3) Add "MessageUI.framework" and "libsqlite3.dylib" in "Link Binary With Libraries" in "Build Phases". This is needed for users to send email to Snaptee to ask questions about the products.
     ![](screenshots/xcode01.png)
 
 4) If working with "Base SDK" before iOS 8.0, libsqlite3.dylib might be required. Please add it in "Link Binary With Libraries" in "Build Phases"
