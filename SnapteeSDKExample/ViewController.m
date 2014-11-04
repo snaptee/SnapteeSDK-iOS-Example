@@ -15,15 +15,17 @@
 
 @end
 
-@implementation ViewController
+@implementation ViewController{
+    UIImageView * backgroundView;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     // UI elements
-    UIImageView * backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"affiliate.png"]];
-    
+    backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"affiliate.png"]];
+    [backgroundView setContentMode:UIViewContentModeScaleAspectFill];
     [backgroundView setFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     [backgroundView setCenter:self.view.center];
     
@@ -35,7 +37,12 @@
     [self.view addSubview:button];
     
 }
-
+- (void)viewDidLayoutSubviews{
+    [super viewDidLayoutSubviews];
+    
+    [backgroundView setFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    
+}
 #pragma mark button action
 - (IBAction) designWithSnaptee:(id)sender{
     
