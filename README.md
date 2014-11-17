@@ -62,10 +62,9 @@ Snaptee SDK supports the following languages
 #### Working environment
 - Latest Xcode
 - Deployment Target 6.0 or above
-##### Libraries
-Please add the following frameworks in "Link Binary With Libraries" in "Build Phases"
-- MessageUI.framework
-- libsqlite3.dylib (Required if working with "Base SDK" before iOS 8.0)
+- Please add the following frameworks in "Link Binary With Libraries" in "Build Phases"
+   - MessageUI.framework
+   - libsqlite3.dylib (Required only if working with "Base SDK" before iOS 8.0)
 
 
 #### Snaptee SDK example project
