@@ -48,8 +48,8 @@
     
     // Initialize Snaptee
     
-    /*
-     affiliateID: Assigned by Snaptee
+    /**
+     affiliateId: Assigned by Snaptee
      app_name: Optional. Will be shown in the action sheet when leaving Snaptee e.g. "Back to app_name"
      language: force SDK to display in a specific language (STLanguageDefault means to use device's language setting)
      */
@@ -57,10 +57,12 @@
     [STAffiliateManager instance].affiliateId = @"sdk-demo";
     [STAffiliateManager instance].appName = @"Snaptee SDK Example"; // Optional
     [STAffiliateManager instance].language = STLanguageDefault; // Optional
+//    [STAffiliateManager instance].themeColor = <#Your preferred color#>; // Optional
+//    [STAffiliateManager instance].bannerImage = <#Your banner image#>; // Optional
     
     /*
      image: UIImage passing to Snaptee
-     file type: PNG or JPG
+     file type: PNG or JPG (If it is transparent background, pleasae use PNG)
      caption: Optional. Description of the image. Typically entered by users
      */
     STViewController * stViewController = [[STViewController alloc] initWithImage:[UIImage imageNamed:@"sample2.jpg"]

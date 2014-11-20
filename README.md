@@ -1,6 +1,5 @@
 # SnapteeSDKExample
 
-
 iOS Snaptee SDK example project
 
 ## iPhone version
@@ -64,8 +63,14 @@ Snaptee SDK supports the following languages
 - Deployment Target 6.0 or above
 - Please add the following frameworks in "Link Binary With Libraries" in "Build Phases"
    - QuartzCore.framework
+   - UIKit.framework
+   - Foundation.framework
    - MessageUI.framework
-   - libsqlite3.dylib (Required only if working with "Base SDK" before iOS 8.0)
+   - libsqlite3.dylib
+   - MobileCoreServices.framework
+   - CoreGraphics.framework
+   - Security.framework
+   - SystemConfiguration.framework
 ![](screenshots/xcode01.png)
 
 
@@ -75,12 +80,12 @@ Please download the latest version from https://github.com/snaptee/SnapteeSDK-iO
 **If you are upgrading from older version, make sure that you removed the older library and add all new files to Xcode**
 
 
-1) Add Snaptee SDK static library to your project (located in SDK example project, /Frameworks/Snpatee"
+1) Add Snaptee SDK static library to your project (located in SDK example project, "/Frameworks/Snpatee")
 - /Assets/
 - /include/
 - libSnapteeSDKLibrary.a
 
-2) Add AFNetworking framework (version 2.4.1)
+2) Add AFNetworking framework (version 2.4.1 or above)
 https://github.com/AFNetworking/AFNetworking
 
 3) In your app, add the following code to present Snaptee

@@ -34,7 +34,7 @@ typedef enum {
 
 
 /**
- affiliateID: Assigned by Snaptee
+ affiliateId: Assigned by Snaptee
  */
 @property (nonatomic, retain) NSString * affiliateId;
 /**
@@ -56,6 +56,17 @@ typedef enum {
  language: Optional. Set if want to force the language.
  */
 @property (nonatomic) STLanguage language;
+
+
+/**
+ bannerImage: Optional. Set if want to customize the banner
+ */
+@property (nonatomic) UIImage * bannerImage;
+
+/**
+ themeColor: Optional. Set if want to customize theme color
+ */
+@property (nonatomic) UIColor * themeColor;
 
 
 /**
