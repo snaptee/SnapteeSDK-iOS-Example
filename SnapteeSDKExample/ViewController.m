@@ -51,7 +51,9 @@
     /**
      affiliateId: Assigned by Snaptee
      app_name: Optional. Will be shown in the action sheet when leaving Snaptee e.g. "Back to app_name"
-     language: force SDK to display in a specific language (STLanguageDefault means to use device's language setting)
+     language: Optional. force SDK to display in a specific language (STLanguageDefault means to use device's language setting)
+     themeColor: Optional. Button color. Default is red.
+     bannerImage: Optiona. Navigation bar image. Default is Snaptee Logo.
      */
     
     [STAffiliateManager instance].affiliateId = @"sdk-demo";
