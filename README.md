@@ -105,15 +105,11 @@ https://github.com/AFNetworking/AFNetworking
      affiliateId: Assigned by Snaptee
      app_name: Optional. Will be shown in the action sheet when leaving Snaptee e.g. "Back to app_name"
      language: Optional. force SDK to display in a specific language (STLanguageDefault means to use device's language setting)
-     themeColor: Optional. Button color. Default is red.
-     bannerImage: Optiona. Navigation bar image. Default is Snaptee Logo.
      */
     
     [[STAffiliateManager instance] setAffiliate_id:@"sdk-demo"];
     [[STAffiliateManager instance] setApp_name:@"Snaptee SDK Example"]; // Optional
     [[STAffiliateManager instance] setLanguage:STLanguageDefault]; // Optional
-//    [STAffiliateManager instance].themeColor = <#Your preferred color#>; // Optional
-//    [STAffiliateManager instance].bannerImage = <#Your banner image#>; // Optional
     
     /*
      image: UIImage passing to Snaptee
