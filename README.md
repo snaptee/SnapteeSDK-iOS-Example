@@ -149,6 +149,28 @@ https://github.com/AFNetworking/AFNetworking
 
 ```
 
+#### iOS 9 Reminder
+
+Since iOS 9 comes with [App Transport Security](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/), you need to add the following to your app's Info.plist.
+
+```xml
+<key>NSAppTransportSecurity</key>
+<dict>
+	<key>NSExceptionDomains</key>
+	<dict>
+		<key>d1tb5im0xynh1.cloudfront.net</key>
+		<dict>
+			<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+			<false/>
+			<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+```
+
+You may also open the example code to compare the plist file with your owns if you got problem when loading images.
+
 ## Make a T-shirt button
 
 It is recommended to use this graphic or text "Make a T-shirt" to start the T-shirt design flow
