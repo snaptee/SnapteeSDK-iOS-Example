@@ -151,7 +151,7 @@ https://github.com/AFNetworking/AFNetworking
 
 #### iOS 9 Reminder
 
-Since iOS 9 comes with [App Transport Security](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/), you need to add the following to your app's Info.plist.
+Since iOS 9 comes with [App Transport Security](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/), you need to add the following to your app's Info.plist to ensure all the images are shown correctly.
 
 ```xml
 <key>NSAppTransportSecurity</key>
