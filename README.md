@@ -165,6 +165,13 @@ Since iOS 9 comes with [App Transport Security](https://developer.apple.com/libr
 			<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
 			<true/>
 		</dict>
+		<key>paypal.com</key>
+		<dict>
+			<key>NSIncludesSubdomains</key>
+			<true/>
+			<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+			<false/>
+		</dict>
 	</dict>
 </dict>
 ```
