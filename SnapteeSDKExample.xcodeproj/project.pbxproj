@@ -276,7 +276,7 @@
 		4A9B185E1CE493DF00F649DF /* button-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A9B174A1CE493DF00F649DF /* button-info@2x.png */; };
 		4A9B185F1CE493DF00F649DF /* card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A9B174B1CE493DF00F649DF /* card@2x.png */; };
 		4A9B18601CE493DF00F649DF /* overlay-image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A9B174C1CE493DF00F649DF /* overlay-image@2x.png */; };
-		4A9B18611CE493DF00F649DF /* libSnapteeSDKLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9B17541CE493DF00F649DF /* libSnapteeSDKLibrary.a */; };
+		4A9B18641CE570B500F649DF /* libSnapteeSDKLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9B17541CE493DF00F649DF /* libSnapteeSDKLibrary.a */; };
 		B402234C191A3B2200EB9080 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B402234B191A3B2200EB9080 /* Foundation.framework */; };
 		B402234E191A3B2200EB9080 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B402234D191A3B2200EB9080 /* CoreGraphics.framework */; };
 		B4022350191A3B2200EB9080 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B402234F191A3B2200EB9080 /* UIKit.framework */; };
@@ -633,6 +633,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40DBE8341BB24BCD00EA3824 /* libsqlite3.tbd in Frameworks */,
+				4A9B18641CE570B500F649DF /* libSnapteeSDKLibrary.a in Frameworks */,
 				B4DC99F21A1DB13B0064F0EE /* MobileCoreServices.framework in Frameworks */,
 				B4DC99F01A1DB1320064F0EE /* Security.framework in Frameworks */,
 				B4DC99EE1A1DB12C0064F0EE /* SystemConfiguration.framework in Frameworks */,
@@ -641,7 +642,6 @@
 				B402234E191A3B2200EB9080 /* CoreGraphics.framework in Frameworks */,
 				B4022350191A3B2200EB9080 /* UIKit.framework in Frameworks */,
 				B402234C191A3B2200EB9080 /* Foundation.framework in Frameworks */,
-				4A9B18611CE493DF00F649DF /* libSnapteeSDKLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1565,6 +1565,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1597,6 +1598,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
