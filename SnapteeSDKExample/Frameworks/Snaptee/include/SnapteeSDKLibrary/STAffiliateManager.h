@@ -34,7 +34,7 @@ typedef enum {
 
 
 /**
- affiliateId: Assigned by Snaptee
+ affiliateID: Assigned by Snaptee
  */
 @property (nonatomic, retain) NSString * affiliateId;
 /**

@@ -85,10 +85,7 @@ Please download the latest version from https://github.com/snaptee/SnapteeSDK-iO
 - /include/
 - libSnapteeSDKLibrary.a
 
-2) Add AFNetworking framework (version 2.4.1 or above)
-https://github.com/AFNetworking/AFNetworking
-
-3) In your app, add the following code to present Snaptee
+2) In your app, add the following code to present Snaptee
 
 - Import Snaptee View Controller in your header (.h) and set STViewControllerDelegate
 ```objc
@@ -106,10 +103,10 @@ https://github.com/AFNetworking/AFNetworking
      app_name: Optional. Will be shown in the action sheet when leaving Snaptee e.g. "Back to app_name"
      language: Optional. force SDK to display in a specific language (STLanguageDefault means to use device's language setting)
      */
-    
-    [[STAffiliateManager instance] setAffiliate_id:@"sdk-demo"];
-    [[STAffiliateManager instance] setApp_name:@"Snaptee SDK Example"]; // Optional
-    [[STAffiliateManager instance] setLanguage:STLanguageDefault]; // Optional
+     
+    [STAffiliateManager instance].affiliateId = @"sdk-demo";
+    [STAffiliateManager instance].appName = @"Snaptee SDK Example"; // Optional
+    [STAffiliateManager instance].language = STLanguageDefault; // Optional
     
     /*
      image: UIImage passing to Snaptee
@@ -194,7 +191,7 @@ It is recommended to use this graphic or text "Make a T-shirt" to start the T-sh
 The following website is the dashboard of the program. You may find statistics inside there.
 (Username and password are assigned by Snaptee)
 
-http://snaptee.co/affiliate
+https://snaptee.co/affiliate
 
 
 
