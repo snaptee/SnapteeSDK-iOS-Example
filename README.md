@@ -5,32 +5,32 @@ iOS Snaptee SDK example project
 ## iPhone version
 
 1. Design T-shirt with the image from your app
-    
+
     ![](screenshots/iphone01.PNG)
 
 2. Different color and clothing are available to choose
-    
+
     ![](screenshots/iphone02.PNG)
 
 3. Order the T-shirt directly in the app
-    
+
     ![](screenshots/iphone03.PNG)
 
 4. Support Credit Card, Paypal and Alipay (Chinese users)
-    
+
     ![](screenshots/iphone06.PNG)
 
 ## iPad version
 
 1. Design T-shirt with the image from your app
     ![](screenshots/ipad02.png)
-    
+
 2. Different color and clothing are available to choose
     ![](screenshots/ipad03.png)
-    
+
 3. Order the T-shirt directly in the app
     ![](screenshots/ipad04.png)
-    
+
 4. Support Credit Card, Paypal and Alipay (Chinese users)
     ![](screenshots/ipad05.png)
 
@@ -93,7 +93,7 @@ Please download the latest version from https://github.com/snaptee/SnapteeSDK-iO
 @interface ViewController : UIViewController <STViewControllerDelegate>
 @end
 ```
-    
+
 - Initialize Snaptee View Controller
 
 ```objc
@@ -103,24 +103,22 @@ Please download the latest version from https://github.com/snaptee/SnapteeSDK-iO
      app_name: Optional. Will be shown in the action sheet when leaving Snaptee e.g. "Back to app_name"
      language: Optional. force SDK to display in a specific language (STLanguageDefault means to use device's language setting)
      */
-     
+
     [STAffiliateManager instance].affiliateId = @"sdk-demo";
     [STAffiliateManager instance].appName = @"Snaptee SDK Example"; // Optional
     [STAffiliateManager instance].language = STLanguageDefault; // Optional
-    
+
     /*
      image: UIImage passing to Snaptee
-     file type: PNG or JPG
      caption: Optional. Description of the image. Typically entered by users
      */
     STViewController * stViewController = [[STViewController alloc] initWithImage:[UIImage imageNamed:@"sample2.jpg"]
-                                                                         fileType:STImageFileTypeJPG
                                                                           caption:@"Funny bear!"];
     [stViewController setST_delegate:self];
     [stViewController setModalPresentationStyle:UIModalPresentationFormSheet];
-    
+
     [self presentViewController:stViewController animated:YES completion:nil];
-    
+
 ```
 - Include the following delegate function to dismiss
 
@@ -179,13 +177,13 @@ You may also open the example code to compare the plist file with your owns if y
 
 It is recommended to use this graphic or text "Make a T-shirt" to start the T-shirt design flow
 
-![](materials/Create-Tshirt@2x.png)   
+![](materials/Create-Tshirt@2x.png)
 
 ## To test:
 
 - check out with coupon code when using development ID
 - coupon code: st_sandbox
- 
+
 ## Dashboard:
 
 The following website is the dashboard of the program. You may find statistics inside there.

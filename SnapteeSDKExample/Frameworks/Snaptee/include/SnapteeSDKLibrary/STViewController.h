@@ -33,12 +33,19 @@ typedef enum {
  caption: Optional. Description of the image. Typically entered by users
  */
 
-- (id)initWithImage:(UIImage*)image
-           fileType:(STImageFileType) fileType;
+- (id)initWithImage:(UIImage *)image;
 
 - (id)initWithImage:(UIImage*)image
-           fileType:(STImageFileType) fileType
             caption:(NSString*) caption;
+
+
+#pragma mark - Deprecated Methods
+
+- (id)initWithImage:(UIImage *)image
+           fileType:(STImageFileType)fileType DEPRECATED_MSG_ATTRIBUTE("Use `initWithImage:` instead.");
+- (id)initWithImage:(UIImage*)image
+           fileType:(STImageFileType) fileType
+            caption:(NSString*) caption DEPRECATED_MSG_ATTRIBUTE("Use `initWithImage:caption:` instead.");
 
 @end
 

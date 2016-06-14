@@ -64,11 +64,9 @@
     
     /*
      image: UIImage passing to Snaptee
-     file type: PNG or JPG (If it is transparent background, pleasae use PNG)
      caption: Optional. Description of the image. Typically entered by users
      */
     STViewController * stViewController = [[STViewController alloc] initWithImage:[UIImage imageNamed:@"sample2.jpg"]
-                                                                         fileType:STImageFileTypeJPG
                                                                           caption:@"Funny bear!"];
     [stViewController setST_delegate:self];
     [stViewController setModalPresentationStyle:UIModalPresentationFormSheet];
